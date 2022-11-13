@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AX5043
+D AX5043 RF Modem IC
+$ENDCMP
+#
+$CMP FST3245
+D 5V OCTAL BUS SWITCH
+$ENDCMP
+#
+#End Doc Library

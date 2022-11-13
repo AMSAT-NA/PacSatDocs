@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QSH-030-01-L-D-A
+D Q Strip(R) High Speed Mezzanine
+$ENDCMP
+#
+$CMP QTH-030-02-L-D-A
+D Q Strip(R) High Speed Mezzanine
+$ENDCMP
+#
+$CMP SMA
+D SMA PCB Mount
+$ENDCMP
+#
+#End Doc Library
