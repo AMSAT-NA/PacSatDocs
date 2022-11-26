@@ -1,0 +1,31 @@
+Errata for the RT-IHU v1.0 / Enhancements planned in v1.1
+28-Feb-2019 Zach Metzinger N0ZGO
+
+Erratum
+-------
+Bus switches (U15, U16, U13, U14, U19, U20) footprint INCORRECT/MIRRORED (do not install)
+	- Fixed
+Inductor needs to be changed for switching regulator (lower ESR, higher saturation)
+Add pull-down on TMS570 OSCIN to prevent high-Z startup condition
+	- Replaced with dedicated XTAL
+Re-evaluate nERROR (FAULT_N) signal, pull up or pull down more appropriate?
+Splitter/combiner for RX and TX paths
+Power switch for Maxim part is EOL
+	- Replace with new part
+
+Enhancements
+------------
+Hardware watchdog for latch-up and software-directed power cycle (ala Fox)
+Add dedicated XTAL for TMS570 (16 MHz)
+Unused ADC channels to monitor voltage and current (VDD, VDD12, etc.)
+RC filter on I/O pins
+TCXO for AX5043
+Compartmentalized RF/EMI shielding over all non-DC parts
+White space for S/N on silkscreen
+Encode board revision on 4 GPIO pins
+SCI2 as console UART for both supervisors, unswitched, to GOLF bus
+CAN as inter-supervisor link, plus a couple of discrete I/O
+
+Wishlist
+--------
+Incorporate PIN scintilation detector

@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FPF2001
+D 50-100mA Current-Limit Switch
+$ENDCMP
+#
+#End Doc Library
