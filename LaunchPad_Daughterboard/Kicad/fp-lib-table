@@ -1,0 +1,11 @@
+(fp_lib_table
+  (lib (name "amsat_onsemi")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/footprint/amsat_onsemi.pretty")(options "")(descr ""))
+  (lib (name "amsat_skyworks")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/footprint/amsat_skyworks.pretty")(options "")(descr ""))
+  (lib (name "amsat_nxp")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/footprint/amsat_nxp.pretty")(options "")(descr ""))
+  (lib (name "amsat_misc")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/footprint/amsat_misc.pretty")(options "")(descr ""))
+  (lib (name "amsat_ecs_tcxo")(type "KiCad")(uri "D:/AMSAT/kicad_lib/footprint/amsat_ecs_txo_3225.pretty")(options "")(descr ""))
+  (lib (name "amsat_murata")(type "KiCad")(uri "D:/AMSAT/kicad_lib/footprint/amsat_murata.pretty")(options "")(descr ""))
+  (lib (name "amsat_everspin")(type "KiCad")(uri "${KIPRJMOD}/kicad_lib/footprint/amsat_everspin.pretty")(options "")(descr ""))
+  (lib (name "amsat_maxim")(type "KiCad")(uri "D:/AMSAT/kicad_lib/footprint/amsat_maxim.pretty")(options "")(descr ""))
+  (lib (name "amsat_te_amp")(type "KiCad")(uri "D:/AMSAT/kicad_lib/footprint/amsat_te_amp.pretty")(options "")(descr ""))
+)

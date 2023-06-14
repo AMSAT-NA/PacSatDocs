@@ -1,0 +1,13 @@
+(sym_lib_table
+  (lib (name "amsat_onsemi")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_onsemi.lib")(options "")(descr ""))
+  (lib (name "amsat_skyworks")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_skyworks.lib")(options "")(descr ""))
+  (lib (name "amsat_nxp")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_nxp.lib")(options "")(descr ""))
+  (lib (name "amsat_te_amp")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_te_amp.lib")(options "")(descr ""))
+  (lib (name "maxium_packages")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_maxim.lib")(options "")(descr ""))
+  (lib (name "amsat_abracon")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_abracon.lib")(options "")(descr ""))
+  (lib (name "amsat_discrete")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_discrete.lib")(options "")(descr ""))
+  (lib (name "amsat_ti")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_ti.lib")(options "")(descr ""))
+  (lib (name "amsat_tcxo")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_ecs_txo_225.lib")(options "")(descr ""))
+  (lib (name "amsat_everspin")(type "Legacy")(uri "${KIPRJMOD}/kicad_lib/symbol/amsat_everspin.lib")(options "")(descr ""))
+  (lib (name "amsat_maxim")(type "Legacy")(uri "D:/AMSAT/kicad_lib/symbol/amsat_maxim.lib")(options "")(descr ""))
+)
