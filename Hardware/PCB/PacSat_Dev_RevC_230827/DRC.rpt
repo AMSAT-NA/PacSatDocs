@@ -1,0 +1,1505 @@
+** Drc report for /home/bob/Projects/PacSat_Dev_RevC_230824/PacSat_Dev_RevC_230824.kicad_pcb **
+** Created on 2023-08-24 18:41:34 **
+
+** Found 431 DRC violations **
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4089 in, 3.0154 in): Line on F.Silkscreen
+    @(7.4111 in, 3.0154 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4089 in, 3.0154 in): Line on F.Silkscreen
+    @(7.4111 in, 2.9185 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4089 in, 3.0154 in): Line on F.Silkscreen
+    @(7.4150 in, 2.9063 in): Reference 'R6'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4111 in, 3.0154 in): Line on F.Silkscreen
+    @(7.3511 in, 3.0154 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4111 in, 2.9185 in): Line on F.Silkscreen
+    @(7.3511 in, 3.0154 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4111 in, 2.9185 in): Line on F.Silkscreen
+    @(7.4150 in, 2.9063 in): Reference 'R6'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.4150 in, 2.9063 in): Reference 'R6'
+    @(7.4437 in, 2.9528 in): Reference 'R7'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.3401 in, 2.9558 in): Line on F.Silkscreen
+    @(7.3237 in, 2.9500 in): Reference 'D2'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.1387 in, 2.9500 in): Reference 'R8'
+    @(7.1080 in, 2.9202 in): Reference 'C79'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.2156 in, 2.9600 in): Line on F.Silkscreen
+    @(7.2037 in, 2.9500 in): Reference 'D4'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.3837 in, 2.9500 in): Reference 'D3'
+    @(7.4150 in, 2.9063 in): Reference 'R6'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.9950 in, 3.6437 in): Reference 'R11'
+    @(6.9850 in, 3.6606 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.7539 in, 3.7000 in): Reference 'C121'
+    @(6.6996 in, 3.6315 in): Reference 'R100'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.9970 in, 3.5613 in): Reference 'C9'
+    @(6.9950 in, 3.5837 in): Reference 'R12'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.9850 in, 3.6194 in): Line on F.Silkscreen
+    @(6.9950 in, 3.6437 in): Reference 'R11'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.8061 in, 3.1067 in): Reference 'R31'
+    @(6.7960 in, 3.1136 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.8061 in, 3.1067 in): Reference 'R31'
+    @(6.8460 in, 3.0925 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.8061 in, 3.1067 in): Reference 'R31'
+    @(6.8578 in, 3.0846 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.9950 in, 3.2853 in): Reference 'C7'
+    @(6.9950 in, 3.2737 in): Reference 'R13'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.9950 in, 3.2737 in): Reference 'R13'
+    @(7.0008 in, 3.2491 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.0231 in, 3.2008 in): Reference 'U30'
+    @(7.0008 in, 3.2089 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(9.0565 in, 3.1913 in): Reference 'C406'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.9531 in, 3.1160 in): Reference 'L401'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.8419 in, 3.1230 in): Reference 'U406'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.8600 in, 3.1593 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.8517 in, 3.1593 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.9076 in, 3.1597 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(8.9159 in, 3.0723 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2150 in, 3.7435 in): Reference 'U651'
+    @(8.2700 in, 3.7537 in): Reference 'R651'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(7.9887 in, 2.6978 in): Line on F.Silkscreen
+    @(8.0269 in, 2.7561 in): Reference 'Y26'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2700 in, 3.8187 in): Reference 'C651'
+    @(8.2600 in, 3.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2950 in, 3.7656 in): Line on F.Silkscreen
+    @(8.2700 in, 3.7537 in): Reference 'R651'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.6730 in, 4.7130 in): Reference 'U607'
+    @(8.5000 in, 4.7000 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7821 in, 4.6923 in): Line on F.Silkscreen
+    @(8.7821 in, 4.7393 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7821 in, 4.6923 in): Line on F.Silkscreen
+    @(8.8459 in, 4.6881 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+    @(8.7821 in, 4.7393 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+    @(8.8459 in, 4.6999 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+    @(8.8459 in, 4.6881 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+    @(8.8459 in, 4.6999 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+    @(8.8459 in, 4.6881 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7821 in, 4.6009 in): Line on F.Silkscreen
+    @(8.7821 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7821 in, 4.6009 in): Line on F.Silkscreen
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5616 in): Line on F.Silkscreen
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5616 in): Line on F.Silkscreen
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5616 in): Line on F.Silkscreen
+    @(8.8884 in, 4.5504 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5497 in): Line on F.Silkscreen
+    @(8.7821 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5497 in): Line on F.Silkscreen
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8459 in, 4.5497 in): Line on F.Silkscreen
+    @(8.8884 in, 4.5504 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0509 in, 4.3003 in): Reference 'R203'
+    @(9.0509 in, 4.3227 in): Reference 'C206'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0509 in, 4.3003 in): Reference 'R203'
+    @(9.0610 in, 4.2935 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.6730 in, 4.7130 in): Reference 'U607'
+    @(8.6730 in, 4.5830 in): Reference 'U605'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2804 in, 3.5529 in): Reference 'FB652'
+    @(8.2819 in, 3.6294 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2804 in, 3.5529 in): Reference 'FB652'
+    @(8.2819 in, 3.5506 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1555 in, 5.2084 in): Reference 'C502'
+    @(9.1412 in, 5.2212 in): Reference 'L504'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1412 in, 5.2212 in): Reference 'L504'
+    @(9.1612 in, 5.2340 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1555 in, 5.2703 in): Reference 'C503'
+    @(9.0975 in, 5.2584 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1555 in, 5.2703 in): Reference 'C503'
+    @(9.1849 in, 5.2667 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1555 in, 5.2084 in): Reference 'C502'
+    @(9.1612 in, 5.1939 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1612 in, 5.1321 in): Line on F.Silkscreen
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+    @(9.2013 in, 5.1232 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+    @(9.2013 in, 5.1468 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2170 in, 5.1350 in): Line on F.Silkscreen
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1760 in, 5.0065 in): Reference 'C506'
+    @(9.1340 in, 5.0363 in): Reference 'C504'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1340 in, 5.0363 in): Reference 'C504'
+    @(9.0964 in, 5.0440 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1340 in, 5.0363 in): Reference 'C504'
+    @(9.1838 in, 5.0440 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3388 in, 5.0041 in): Line on F.Silkscreen
+    @(9.3536 in, 5.0000 in): Reference 'C507'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0793 in, 5.1702 in): Line on F.Silkscreen
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+    @(9.0793 in, 5.1785 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1397 in, 5.1454 in): Reference 'L503'
+    @(9.0797 in, 5.1226 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+    @(9.1555 in, 5.2084 in): Reference 'C502'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1412 in, 5.2212 in): Reference 'L504'
+    @(9.0821 in, 5.2098 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1412 in, 5.2212 in): Reference 'L504'
+    @(8.9947 in, 5.2015 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0821 in, 5.2098 in): Line on F.Silkscreen
+    @(9.1555 in, 5.2084 in): Reference 'C502'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9510 in, 5.1680 in): Reference 'U506'
+    @(8.9510 in, 5.0365 in): Reference 'U507'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+    @(9.0103 in, 5.1895 in): Reference 'C501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9510 in, 5.1680 in): Reference 'U506'
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9510 in, 5.1680 in): Reference 'U506'
+    @(8.9339 in, 5.1838 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9510 in, 5.1680 in): Reference 'U506'
+    @(8.9741 in, 5.1838 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9919 in, 5.1785 in): Line on F.Silkscreen
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9919 in, 5.1785 in): Line on F.Silkscreen
+    @(9.0103 in, 5.1895 in): Reference 'C501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+    @(8.9741 in, 5.1838 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9943 in, 5.2657 in): Line on F.Silkscreen
+    @(9.0103 in, 5.1895 in): Reference 'C501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0793 in, 5.1785 in): Line on F.Silkscreen
+    @(9.0103 in, 5.1895 in): Reference 'C501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9947 in, 5.2015 in): Line on F.Silkscreen
+    @(9.0103 in, 5.1895 in): Reference 'C501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0960 in, 5.0999 in): Line on F.Silkscreen
+    @(9.0360 in, 5.0771 in): Reference 'L501'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8419 in, 5.1887 in): Line on F.Silkscreen
+    @(8.8419 in, 5.1485 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8419 in, 5.1887 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1997 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7781 in, 5.1887 in): Line on F.Silkscreen
+    @(8.8419 in, 5.1485 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7781 in, 5.1887 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1879 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7781 in, 5.1887 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1879 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7781 in, 5.1887 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1997 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7356 in, 5.2006 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1879 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7356 in, 5.2006 in): Line on F.Silkscreen
+    @(8.7781 in, 5.1997 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.6751 in, 4.9930 in): Reference 'U609'
+    @(8.2900 in, 4.9200 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7843 in, 4.8809 in): Line on F.Silkscreen
+    @(8.7821 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.7843 in, 4.8809 in): Line on F.Silkscreen
+    @(8.8459 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8480 in, 4.8416 in): Line on F.Silkscreen
+    @(8.8459 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8480 in, 4.8416 in): Line on F.Silkscreen
+    @(8.8459 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8480 in, 4.8297 in): Line on F.Silkscreen
+    @(8.7821 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8480 in, 4.8297 in): Line on F.Silkscreen
+    @(8.8459 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8480 in, 4.8297 in): Line on F.Silkscreen
+    @(8.8459 in, 4.8306 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3349 in, 5.4367 in): Reference 'L505'
+    @(9.2937 in, 5.3756 in): Reference 'C505'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3349 in, 5.4367 in): Reference 'L505'
+    @(9.5222 in, 5.4340 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2937 in, 5.3756 in): Reference 'C505'
+    @(9.5222 in, 5.4340 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1400 in, 5.4463 in): Reference 'R501'
+    @(9.5222 in, 5.4340 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2963 in, 5.3283 in): Line on F.Silkscreen
+    @(9.2937 in, 5.3756 in): Reference 'C505'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3833 in, 5.3925 in): Line on F.Silkscreen
+    @(9.2937 in, 5.3756 in): Reference 'C505'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2937 in, 5.3756 in): Reference 'C505'
+    @(9.2959 in, 5.3925 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1400 in, 5.4463 in): Reference 'R501'
+    @(9.0548 in, 5.5218 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2987 in, 3.1769 in): Reference 'R401'
+    @(9.3093 in, 3.1576 in): Reference 'L408'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2987 in, 3.1769 in): Reference 'R401'
+    @(9.2836 in, 3.1871 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2284 in, 3.2004 in): Reference 'C408'
+    @(9.2218 in, 3.1669 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1691 in, 3.7142 in): Line on F.Silkscreen
+    @(9.1866 in, 3.7690 in): Reference 'C303'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1928 in, 3.7142 in): Line on F.Silkscreen
+    @(9.1866 in, 3.7690 in): Reference 'C303'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1809 in, 3.6984 in): Line on F.Silkscreen
+    @(9.1866 in, 3.7690 in): Reference 'C303'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1866 in, 3.7690 in): Reference 'C303'
+    @(9.1740 in, 3.7632 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3806 in, 3.6477 in): Line on F.Silkscreen
+    @(9.3704 in, 3.9800 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3691 in, 3.7427 in): Reference 'R301'
+    @(9.3742 in, 3.7541 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2504 in, 3.7690 in): Reference 'C301'
+    @(9.2440 in, 3.7632 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3724 in, 3.6477 in): Line on F.Silkscreen
+    @(9.3704 in, 3.9800 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.4342 in, 3.5351 in): Line on F.Silkscreen
+    @(8.4400 in, 3.5255 in): Reference 'C653'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.4342 in, 3.6019 in): Line on F.Silkscreen
+    @(8.4400 in, 3.5905 in): Reference 'C654'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(9.0086 in, 3.1189 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(9.0960 in, 3.1189 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(9.0097 in, 3.1415 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.0960 in, 3.1189 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+    @(9.0090 in, 3.0548 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+    @(9.0565 in, 3.1913 in): Reference 'C406'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0093 in, 3.2056 in): Line on F.Silkscreen
+    @(9.0565 in, 3.1913 in): Reference 'C406'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.1110 in, 3.1210 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.1984 in, 3.1210 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1114 in, 3.0651 in): Line on F.Silkscreen
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+    @(9.1114 in, 3.0568 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.0960 in, 3.1107 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0565 in, 3.1913 in): Reference 'C406'
+    @(9.0968 in, 3.2056 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1988 in, 3.0651 in): Line on F.Silkscreen
+    @(9.1332 in, 3.0673 in): Reference 'C410'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9441 in, 3.1053 in): Line on F.Silkscreen
+    @(8.9531 in, 3.1160 in): Reference 'L401'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9531 in, 3.1160 in): Reference 'L401'
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9531 in, 3.1160 in): Reference 'L401'
+    @(8.9505 in, 2.9970 in): Reference 'C402'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.8419 in, 3.1230 in): Reference 'U406'
+    @(8.8517 in, 3.1593 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3204 in, 3.7690 in): Reference 'C302'
+    @(9.3691 in, 3.7427 in): Reference 'R301'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2504 in, 3.7690 in): Reference 'C301'
+    @(9.2070 in, 3.8470 in): Reference 'U306'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1866 in, 3.7690 in): Reference 'C303'
+    @(9.2070 in, 3.8470 in): Reference 'U306'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0371 in, 3.4928 in): Reference 'R302'
+    @(9.0552 in, 3.5498 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0371 in, 3.4928 in): Reference 'R302'
+    @(9.0140 in, 3.5498 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3600 in, 3.1929 in): Reference 'C412'
+    @(9.3465 in, 3.2013 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3600 in, 3.1929 in): Reference 'C412'
+    @(9.3547 in, 3.2013 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3237 in, 3.1871 in): Line on F.Silkscreen
+    @(9.3093 in, 3.1576 in): Reference 'L408'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0527 in, 3.0176 in): Reference 'L405'
+    @(9.1334 in, 3.0070 in): Reference 'C409'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1551 in, 3.0196 in): Reference 'L406'
+    @(9.1334 in, 3.0070 in): Reference 'C409'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1551 in, 3.0196 in): Reference 'L406'
+    @(9.1389 in, 3.0311 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1551 in, 3.0196 in): Reference 'L406'
+    @(9.0527 in, 3.0176 in): Reference 'L405'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1334 in, 3.0070 in): Reference 'C409'
+    @(9.1389 in, 2.9909 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1389 in, 2.9909 in): Line on F.Silkscreen
+    @(9.1551 in, 3.0196 in): Reference 'L406'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.4060 in, 2.8777 in): Reference 'C29'
+    @(8.3960 in, 2.8886 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2601 in, 2.7935 in): Reference 'U28'
+    @(8.2642 in, 2.8044 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2208 in, 2.9534 in): Line on F.Silkscreen
+    @(8.1760 in, 2.9487 in): Reference 'C27'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.2601 in, 2.8266 in): Line on F.Silkscreen
+    @(8.2584 in, 2.8407 in): Reference 'C30'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.4060 in, 2.8117 in): Reference 'R29'
+    @(8.3884 in, 2.8249 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3479 in, 2.7860 in): Reference 'R402'
+    @(9.5236 in, 2.7559 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2819 in, 2.7860 in): Reference 'R403'
+    @(9.5236 in, 2.7559 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1437 in, 2.7559 in): Line on F.Silkscreen
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1437 in, 2.7559 in): Line on F.Silkscreen
+    @(9.0624 in, 2.7248 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+    @(9.0624 in, 2.7248 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1494 in, 2.7890 in): Line on F.Silkscreen
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+    @(9.1494 in, 2.7807 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+    @(9.5236 in, 2.7559 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.3479 in, 2.7860 in): Reference 'R402'
+    @(9.3587 in, 2.7961 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1052 in, 2.8850 in): Reference 'C407'
+    @(9.1397 in, 2.8699 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2014 in, 2.9102 in): Line on F.Silkscreen
+    @(9.1340 in, 2.9463 in): Reference 'C411'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2135 in, 2.8592 in): Line on F.Silkscreen
+    @(9.2119 in, 2.7860 in): Reference 'C414'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2135 in, 2.8992 in): Line on F.Silkscreen
+    @(9.2119 in, 2.7860 in): Reference 'C414'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2232 in, 2.7918 in): Line on F.Silkscreen
+    @(9.2119 in, 2.7860 in): Reference 'C414'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2819 in, 2.7860 in): Reference 'R403'
+    @(9.2882 in, 2.7918 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.2119 in, 2.7860 in): Reference 'C414'
+    @(9.5236 in, 2.7559 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.1052 in, 2.8850 in): Reference 'C407'
+    @(9.0132 in, 2.8671 in): Reference 'L404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+    @(9.0086 in, 3.1189 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+    @(9.0090 in, 3.0548 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0090 in, 3.0548 in): Line on F.Silkscreen
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9505 in, 2.9970 in): Reference 'C402'
+    @(8.9932 in, 3.0673 in): Reference 'C404'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0527 in, 3.0176 in): Reference 'L405'
+    @(8.9989 in, 2.9909 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0527 in, 3.0176 in): Reference 'L405'
+    @(8.9989 in, 3.0311 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9505 in, 2.9970 in): Reference 'C402'
+    @(8.9691 in, 2.9685 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9505 in, 2.9970 in): Reference 'C402'
+    @(9.0565 in, 2.9685 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0090 in, 3.0630 in): Line on F.Silkscreen
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0132 in, 2.8671 in): Reference 'L404'
+    @(8.9467 in, 2.8327 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(8.9695 in, 2.9043 in): Line on F.Silkscreen
+    @(9.1052 in, 2.8850 in): Reference 'C407'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(9.0569 in, 2.9126 in): Line on F.Silkscreen
+    @(9.1052 in, 2.8850 in): Reference 'C407'
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.7351 in, 2.9308 in): Reference 'C76'
+    @(6.7267 in, 2.8723 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.7351 in, 2.9308 in): Reference 'C76'
+    @(6.7267 in, 2.8881 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.7351 in, 2.9308 in): Reference 'C76'
+    @(6.7385 in, 2.8802 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.3649 in, 3.3494 in): Reference 'U86'
+    @(6.3504 in, 3.3531 in): Line on F.Silkscreen
+[silk_overlap]: Silkscreen overlap
+    Rule: board setup constraints silk; Severity: warning
+    @(6.3649 in, 3.3494 in): Reference 'U86'
+    @(6.3504 in, 3.3373 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1437 in, 2.7559 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0551 in, 5.5217 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3704 in, 3.9800 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0943 in, 4.2507 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.5236 in, 2.7559 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0548 in, 5.5218 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.5222 in, 5.4340 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.9662 in, 3.1075 in): Reference 'C2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.2637 in, 2.9500 in): Reference 'C3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3237 in, 2.9500 in): Reference 'D2'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3837 in, 2.9500 in): Reference 'D3'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.6011 in, 3.9452 in): Reference 'C98'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.6543 in, 4.2302 in): Reference 'C99'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3479 in, 2.7860 in): Reference 'R402'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5105 in, 5.4802 in): Reference 'C702'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3300 in, 4.1441 in): Reference 'U205'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1978 in, 4.4294 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1859 in, 4.4137 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1928 in, 3.7142 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1809 in, 3.6984 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2959 in, 5.3925 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2963 in, 5.3366 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3833 in, 5.3842 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3837 in, 5.3366 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1555 in, 5.2084 in): Reference 'C502'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.9886 in, 4.3214 in): Reference 'R92'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7660 in, 3.9927 in): Reference 'R109'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3272 in, 4.4840 in): Reference 'C202'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.3978 in, 5.2150 in): Reference 'C162'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3687 in, 3.6920 in): Reference 'C91'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1747 in, 5.3118 in): Reference 'Q701'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3491 in, 3.1223 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3609 in, 3.1302 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3491 in, 3.1381 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.2700 in, 3.8187 in): Reference 'C651'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0785 in, 4.5571 in): Reference 'U208'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0993 in, 4.7300 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1111 in, 4.7726 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1906 in, 4.6663 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2300 in, 4.7300 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2418 in, 4.7300 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.5143 in, 3.8863 in): Reference 'R93'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0509 in, 4.3227 in): Reference 'C206'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1922 in, 4.4790 in): Reference 'C203'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0205 in, 3.1110 in): Reference 'C403'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9242 in, 3.1597 in): Reference 'C401'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3204 in, 3.7690 in): Reference 'C302'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.2601 in, 2.7935 in): Reference 'U28'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8460 in, 3.9353 in): Reference 'R107'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8181 in, 4.2839 in): Reference 'R98'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8061 in, 3.0367 in): Reference 'R30'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1583 in, 3.3695 in): Reference 'U405'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1857 in, 2.8983 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1857 in, 2.9220 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1760 in, 5.0065 in): Reference 'C506'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0534 in, 3.1042 in): Reference 'L403'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0093 in, 3.2056 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0097 in, 3.1497 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0968 in, 3.1974 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0971 in, 3.1497 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.9746 in, 4.1465 in): Reference 'R90'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9442 in, 2.7297 in): Reference 'C405'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.1003 in, 4.2187 in): Reference 'U87'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.1438 in, 4.2803 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.1359 in, 4.2684 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.1359 in, 4.2684 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3446 in, 4.4390 in): Reference 'C204'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1469 in, 2.7860 in): Reference 'C413'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5353 in, 5.3565 in): Reference 'L703'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.7057 in, 5.8080 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.7176 in, 5.8506 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.7971 in, 5.7443 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9531 in, 3.1160 in): Reference 'L401'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8517 in, 3.0719 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9076 in, 3.0723 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8600 in, 3.1593 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9076 in, 3.1597 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7336 in, 3.1705 in): Reference 'C77'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.6730 in, 4.7130 in): Reference 'U607'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8459 in, 4.6923 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8884 in, 4.6804 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.7821 in, 4.6009 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8459 in, 4.5616 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8459 in, 4.5497 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3922 in, 4.4840 in): Reference 'R201'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8620 in, 5.2661 in): Reference 'L708'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8179 in, 5.3675 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8183 in, 5.3116 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.9054 in, 5.3593 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.9057 in, 5.3116 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8460 in, 3.7527 in): Reference 'R108'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5105 in, 5.5476 in): Reference 'L702'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.4664 in, 5.6490 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.4668 in, 5.5931 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5538 in, 5.6407 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5542 in, 5.5931 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1360 in, 5.2139 in): Reference 'L706'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1801 in, 5.1126 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1797 in, 5.1685 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.0927 in, 5.1208 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.0923 in, 5.1685 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2987 in, 3.1769 in): Reference 'R401'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.4060 in, 2.8777 in): Reference 'C29'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.9965 in, 5.5413 in): Reference 'C154'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1412 in, 5.2212 in): Reference 'L504'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0971 in, 5.3226 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0975 in, 5.2667 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1845 in, 5.3143 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1849 in, 5.2667 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0360 in, 5.0771 in): Reference 'L501'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9919 in, 5.1785 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9923 in, 5.1226 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0793 in, 5.1702 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0797 in, 5.1226 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1200 in, 5.5061 in): Reference 'L153'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0759 in, 5.6075 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0763 in, 5.5516 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1633 in, 5.5992 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1637 in, 5.5516 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.6815 in, 3.6810 in): Reference 'U91'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1297 in, 5.2650 in): Reference 'R702'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.5940 in, 5.4950 in): Reference 'U156'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0509 in, 4.3003 in): Reference 'R203'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.4735 in, 3.7200 in): Reference 'C97'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.4663 in, 5.6050 in): Reference 'C160'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.0862 in, 3.9757 in): Reference 'L87'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.2465 in, 5.4513 in): Reference 'C157'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2284 in, 3.2004 in): Reference 'C408'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.2482 in, 5.8374 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.2600 in, 5.8799 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3396 in, 5.7736 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7271 in, 5.4316 in): Reference 'L709'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8285 in, 5.4757 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7726 in, 5.4753 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8202 in, 5.3883 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7726 in, 5.3879 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.2584 in, 2.8407 in): Reference 'C30'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0050 in, 5.6311 in): Reference 'L151'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.9609 in, 5.7325 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.9613 in, 5.6766 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0483 in, 5.7242 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0487 in, 5.6766 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0509 in, 4.3703 in): Reference 'R202'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0384 in, 5.1643 in): Reference 'L502'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9943 in, 5.2657 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9947 in, 5.2098 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0817 in, 5.2574 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0821 in, 5.2098 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.4060 in, 2.8117 in): Reference 'R29'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.6769 in, 3.8334 in): Reference 'U92'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.3050 in, 3.6887 in): Reference 'R652'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3691 in, 3.7427 in): Reference 'R301'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1340 in, 2.9463 in): Reference 'C411'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0686 in, 3.8470 in): Reference 'U307'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0894 in, 4.0199 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1012 in, 4.0624 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1807 in, 3.9561 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8061 in, 3.1067 in): Reference 'R31'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.2504 in, 3.7690 in): Reference 'C301'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.4668 in, 5.5905 in): Reference 'C701'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.6780 in, 4.1080 in): Reference 'U611'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8509 in, 4.0873 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8934 in, 4.0754 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.7871 in, 3.9959 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3800 in, 4.7153 in): Reference 'Q601'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.0006 in, 4.0541 in): Reference 'R91'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3600 in, 3.1929 in): Reference 'C412'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.9950 in, 3.2737 in): Reference 'R13'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7260 in, 5.2913 in): Reference 'C712'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3491 in, 2.8822 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3609 in, 2.8900 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.3491 in, 2.8979 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.2415 in, 5.2963 in): Reference 'C159'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1215 in, 5.3261 in): Reference 'L154'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0774 in, 5.4275 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.0778 in, 5.3716 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1648 in, 5.4192 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.1652 in, 5.3716 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.1555 in, 5.2703 in): Reference 'C503'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.4400 in, 3.5255 in): Reference 'C653'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.8467 in, 4.0157 in): Reference 'C122'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.5105 in, 5.5228 in): Reference 'C703'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.0565 in, 3.1913 in): Reference 'C406'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.4902 in, 5.2160 in): Reference 'C163'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3450 in, 4.5639 in): Reference 'L601'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3891 in, 4.4625 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3887 in, 4.5184 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3017 in, 4.4708 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.3013 in, 4.5184 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(9.3536 in, 5.0000 in): Reference 'C507'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(7.1297 in, 5.4110 in): Reference 'R701'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(6.7250 in, 4.1160 in): Reference 'U93'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.6730 in, 4.5830 in): Reference 'U605'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8459 in, 4.5623 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.8884 in, 4.5504 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.7821 in, 4.4709 in): Line on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.9510 in, 5.1680 in): Reference 'U506'
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; Severity: warning
+    @(8.7781 in, 5.1887 in): Line on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'QFN28' does not match copy in library 'PacSatDev_onsemi'.
+    Local override; Severity: warning
+    @(9.2450 in, 4.2916 in): Footprint U205
+[lib_footprint_mismatch]: Footprint 'QFN28' does not match copy in library 'PacSatDev_onsemi'.
+    Local override; Severity: warning
+    @(9.2400 in, 3.5764 in): Footprint U305
+[lib_footprint_mismatch]: Footprint 'RF_SHIELD_BMI_S_202_F' does not match copy in library 'PacSatDev_misc'.
+    Local override; Severity: warning
+    @(8.7921 in, 2.7060 in): Footprint U401
+[lib_footprint_mismatch]: Footprint 'SOT-89-3' does not match copy in library 'Package_TO_SOT_SMD'.
+    Local override; Severity: warning
+    @(7.0369 in, 5.3118 in): Footprint Q701
+[lib_footprint_mismatch]: Footprint 'MR2xH40_DFN_SmallFlag' does not match copy in library 'PacSatDev_everspin'.
+    Local override; Severity: warning
+    @(6.4987 in, 3.2050 in): Footprint U77
+[lib_footprint_mismatch]: Footprint 'TDFN_T633_2' does not match copy in library 'PacSatDev_maxim'.
+    Local override; Severity: warning
+    @(8.1513 in, 3.3168 in): Footprint U26
+[lib_footprint_mismatch]: Footprint 'QFN28' does not match copy in library 'PacSatDev_onsemi'.
+    Local override; Severity: warning
+    @(9.3235 in, 2.9692 in): Footprint U405
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(9.2500 in, 5.6500 in): Footprint H104
+[lib_footprint_mismatch]: Footprint 'PacSat_Dev_4_26' does not match copy in library 'PacSatDev_misc'.
+    Local override; Severity: warning
+    @(6.7317 in, 2.6571 in): Footprint P651
+[lib_footprint_mismatch]: Footprint 'TDFN_T1033_1' does not match copy in library 'PacSatDev_maxim'.
+    Local override; Severity: warning
+    @(6.1753 in, 4.1562 in): Footprint U87
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(9.2500 in, 2.5500 in): Footprint H103
+[lib_footprint_mismatch]: Footprint 'QFN28' does not match copy in library 'PacSatDev_onsemi'.
+    Local override; Severity: warning
+    @(8.4465 in, 5.4100 in): Footprint U156
+[lib_footprint_mismatch]: Footprint 'RF_SHIELD_BMI_S_201_F' does not match copy in library 'PacSatDev_misc'.
+    Local override; Severity: warning
+    @(8.9892 in, 3.9040 in): Footprint U301
+[lib_footprint_mismatch]: Footprint 'MR2xH40_DFN_SmallFlag' does not match copy in library 'PacSatDev_everspin'.
+    Local override; Severity: warning
+    @(6.4987 in, 2.9648 in): Footprint U76
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(6.2000 in, 5.6500 in): Footprint H102
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(7.3450 in, 4.4950 in): Footprint L601
+[lib_footprint_mismatch]: Footprint 'TDFN_T833_2' does not match copy in library 'PacSatDev_maxim'.
+    Local override; Severity: warning
+    @(8.6284 in, 5.3581 in): Footprint U29
+[lib_footprint_mismatch]: Footprint 'RF_SHIELD_BMI_S_202_F' does not match copy in library 'PacSatDev_misc'.
+    Local override; Severity: warning
+    @(8.9100 in, 5.5025 in): Footprint U501
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(6.2000 in, 2.5500 in): Footprint H101
+[lib_footprint_mismatch]: Footprint 'FTSH-105-01-L-DV-K' does not match copy in library 'PacSatDev_samtec'.
+    Local override; Severity: warning
+    @(8.6850 in, 3.6150 in): Footprint J2
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(9.4041 in, 3.6040 in): Footprint L301
+[lib_footprint_mismatch]: Footprint 'TDFN_T833_2' does not match copy in library 'PacSatDev_maxim'.
+    Local override; Severity: warning
+    @(6.9700 in, 3.1240 in): Footprint U30
+[lib_footprint_mismatch]: Footprint 'CJ725' does not match copy in library 'PacSatDev_MiniCircuits'.
+    Local override; Severity: warning
+    @(8.5000 in, 4.2200 in): Footprint PS602
+[lib_footprint_mismatch]: Footprint 'MR2xH40_DFN_SmallFlag' does not match copy in library 'PacSatDev_everspin'.
+    Local override; Severity: warning
+    @(6.5000 in, 3.4200 in): Footprint U78
+[lib_footprint_issues]: The current configuration does not include the library 'amsat_misc'.
+    Local override; Severity: warning
+    @(9.4050 in, 4.3100 in): Footprint L201
+[lib_footprint_mismatch]: Footprint 'RF_SHIELD_BMI_S_201_F' does not match copy in library 'PacSatDev_misc'.
+    Local override; Severity: warning
+    @(8.9920 in, 4.6210 in): Footprint U201
+[lib_footprint_mismatch]: Footprint 'CJ725' does not match copy in library 'PacSatDev_MiniCircuits'.
+    Local override; Severity: warning
+    @(8.5000 in, 4.7000 in): Footprint PS601
+[lib_footprint_mismatch]: Footprint 'MR2xH40_DFN_SmallFlag' does not match copy in library 'PacSatDev_everspin'.
+    Local override; Severity: warning
+    @(6.8763 in, 2.9550 in): Footprint U79
+[lib_footprint_mismatch]: Footprint 'QFN28' does not match copy in library 'PacSatDev_onsemi'.
+    Local override; Severity: warning
+    @(9.3391 in, 5.1941 in): Footprint U505
+[lib_footprint_mismatch]: Footprint 'TDFN_T1033_1' does not match copy in library 'PacSatDev_maxim'.
+    Local override; Severity: warning
+    @(7.1350 in, 4.5819 in): Footprint U88
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(6.2402 in, 2.2835 in): Line on Edge.Cuts
+    @(6.3784 in, 2.6650 in): Line on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(6.2402 in, 5.9055 in): Line on Edge.Cuts
+    @(8.2000 in, 5.8881 in): Reference 'J151'
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; Severity: warning
+    @(9.5276 in, 5.5709 in): Line on Edge.Cuts
+    @(9.4797 in, 2.8999 in): Reference 'L407'
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** End of Report **

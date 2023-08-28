@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "rtihu-rescue")(type "Legacy")(uri "${KIPRJMOD}/rtihu-rescue.lib")(options "")(descr ""))
+)
