@@ -1,0 +1,7 @@
+8/29/23
+PCB image as it currently exist. Still needs more work before sending to PCB shop. 
+Must balance the lenth of all differential traces.
+Review trace widths to make them larger where possible.
+Check package outlines
+Check Pinout
+Make sure all Vcc and GND connections on parts are connected.
