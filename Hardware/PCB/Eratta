@@ -5,3 +5,5 @@ Review trace widths to make them larger where possible.
 Check package outlines
 Check Pinout
 Make sure all Vcc and GND connections on parts are connected.
+9/7/23
+Updating with most task completed to support sending to PCB shop/
