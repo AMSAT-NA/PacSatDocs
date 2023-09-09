@@ -7,3 +7,8 @@ Check Pinout
 Make sure all Vcc and GND connections on parts are connected.
 9/7/23
 Updating with most task completed to support sending to PCB shop/
+9/9/23
+Added circuit to support watchdog for Transmitter shutdown.
+Reduced pad size under AX5043 to insure not shorts.
+Changed some of the part numbers assigned to schematic parts to make better since.
+
