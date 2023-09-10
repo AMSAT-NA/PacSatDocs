@@ -1,3 +1,4 @@
+
 8/29/23
 PCB image as it currently exist. Still needs more work before sending to PCB shop. 
 Must balance the lenth of all differential traces.
@@ -11,4 +12,6 @@ Updating with most task completed to support sending to PCB shop/
 Added circuit to support watchdog for Transmitter shutdown.
 Reduced pad size under AX5043 to insure not shorts.
 Changed some of the part numbers assigned to schematic parts to make better since.
+9/10/23
+Updated PDF of schematic and PCB. Added BOM to folder.
 
