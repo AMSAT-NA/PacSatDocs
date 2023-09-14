@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 3,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -11,6 +11,7 @@
       "REG_3V3",
       "REG_1V2",
       "VSYS",
+      "AX5043_SEL4",
       "REG_5.0V"
     ],
     "high_contrast_mode": 0,
@@ -69,7 +70,7 @@
       34,
       35
     ],
-    "visible_layers": "000b013_ffffffed",
+    "visible_layers": "0003071_ffffffed",
     "zone_display_mode": 0
   },
   "meta": {

@@ -1,123 +1,120 @@
-"Source:","/home/bob/Projects/pACsAT_dEV_rEVc_230907/pACsAT_dEV_rEVc_230907.kicad_sch"
-"Date:","Thu 07 Sep 2023 02:08:01 PM CDT"
-"Tool:","Eeschema 7.0.7-7.0.7~ubuntu22.04.1"
-"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value_with_fp.py"
-"Component Count:","319"
-"Ref","Qnty","Value","Cmp name","Footprint","Description","Vendor","DNP"
-"AE601","1","U_FL","U_FL","PacSatDev_misc:U_FL","","",""
-"C2, C3, C4, C5, C6, C7, C8, C9, C10, C31, C32, C76, C77, C78, C79","15","100n","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C27","1","6p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C28, C86, C87","3","470n","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C29, C30","2","22u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C88, C93","2","10u","C","Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder","Unpolarized capacitor","",""
-"C89, C90","2","1000p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C91, C94, C95","3","22u","C","Capacitor_SMD:C_2220_5650Metric_Pad1.97x5.40mm_HandSolder","Unpolarized capacitor","",""
-"C92, C96, C714","3","10u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C97, C98, C99, C100, C101, C121, C122, C123","8","1u","C","Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder","Unpolarized capacitor","",""
-"C151, C152, C153, C402, C704","5","NS","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C154","1","5p1","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C155","1","11p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C156, C406, C702","3","5p6","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C157, C158, C201, C202, C301, C302, C409, C410, C501, C701, C703","11","4p3","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C159, C160, C163, C203, C204, C207, C303, C304, C307, C411, C412, C415, C504, C505, C508","15","10n","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C161, C205, C305, C413, C506","5","6.8p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C162, C206, C306, C407, C408, C414, C507","7","10p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C401, C403","2","27p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C404","1","12p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C405","1","1p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C502, C503","2","22p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C601","1","2.2 nF","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C602, C603, C607","3","0.1 u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C604, C605, C606, C707","4","1u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C651, C652, C653, C654","4","0.1u","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C705, C713, C715, C716, C717","5","2200p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C706","1","18p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C708, C711","2","15p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C709, C712","2","100p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"C710","1","56p","C","Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder","Unpolarized capacitor","",""
-"D2","1","RED","LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","","",""
-"D3","1","YEL","LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","","",""
-"D4","1","GRN","LED","LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder","","",""
-"D5","1","LED","LED","LED_SMD:LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder","Light emitting diode","",""
-"D26, D27","2","RB521CS30L,315 ","1N914","Diode_SMD:D_0603_1608Metric","100V 0.3A Small Signal Fast Switching Diode, DO-35","",""
-"FB651, FB652","2","FerriteBead_Small","FerriteBead_Small","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Ferrite bead, small symbol","",""
-"FB701, FB702","2","2743019447","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"H10, H11, H12, H13, H14, H15, H16, H17","8","Wire_Hole","CUBESAT_MOUNT_HOLE_1","PacSatDev_misc:Wire_Hole","","",""
-"H101, H102, H103, H104","4","CUBESAT_MOUNT_HOLE","CUBESAT_MOUNT_HOLE_1","PacSatDev_misc:CUBESAT_MOUNT_HOLE","","",""
-"J2","1","CONN_02X05","CONN_02X05","PacSatDev_samtec:FTSH-105-01-L-DV-K","","",""
-"J151","1","SMA","U_FL","PacSatDev_misc:U_FL","","",""
-"J801","1","Conn_02x05_Odd_Even","Conn_02x05_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical","Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)","",""
-"JP86","1","Disable Watchdog","Jumper_NO_Small","Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm","","",""
-"L86, L87, L88","3","3u3","L","Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder","Inductor","",""
-"L151, L158, L201, L301, L408, L505","6","0","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L152, L153","2","27n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L154, L155, L702","3","43n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L156, L157","2","100n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L401","1","30","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L402, L403, L501, L502, L503, L504","6","68n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L404, L405","2","120n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L406, L407","2","150n","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L601","1","620nH","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L602","1","120 nH","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L701","1","100n","L","PacSatDev_murata:L_0603","Inductor","",""
-"L703","1","18n","L","PacSatDev_murata:L_0603","Inductor","",""
-"L704","1","1n2","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L705, L706","2","5n5","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L707","1","16n6","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L708","1","2n55","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"L709","1","8n1","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"P651","1","Conn_04x26_Pin","Conn_PC104","PacSatDev_misc:PacSat_Dev_4_26","","",""
-"PS601, PS602","2","AD4PS+1","AD4PS+1","PacSatDev_MiniCircuits:CJ725","","",""
-"Q601","1","SAV-331+","SAV-331+","PacSatDev_misc:TB-471","","",""
-"Q602","1","~","TPS1100","Package_SO:SO-8_3.9x4.9mm_P1.27mm","","",""
-"Q701","1","ATF05MS004NT1","NMOS","Package_TO_SOT_SMD:SOT-89-3","N-MOSFET transistor, drain/source/gate","",""
-"R2, R3, R4, R5, R13","5","3k3","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R6, R7, R8, R604","4","3K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R9, R10, R11, R12","4","1k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R14","1","2.4K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R28, R29, R30, R31","4","4k7","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R86, R87, R108, R109, R152, R153, R202, R203, R302, R303, R402, R403, R502, R503","14","0R","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R88, R98, R99","3","4.7k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R89","1","10","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R90, R91","2","10k","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R92, R603","2","1K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R93, R94, R96","3","45k8 1%","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R95","1","143k 1%","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R97, R100, R107, R110, R602, R651, R652, R801, R802, R803, R804, R805, R806, R807, R808, R809","16","10K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R101","1","PLTT1206Z2743BGTS","R","Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder","Resistor","",""
-"R102","1","PLTT1206Z0303BGTS","R","Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder","Resistor","",""
-"R103","1","PLTT1206Z0011BGTS","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R151, R201, R301, R401, R501, R610","6","50","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R601","1","5 Meg","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R605","1","2K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R606","1","5K","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R607","1","1MEG","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"R701, R702","2","22","R","Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder","Resistor","",""
-"T601","1","ADT4-1WT+","Transformer_1P_SS","RF_Mini-Circuits:Mini-Circuits_CD542_H2.84mm","Transformer, single primary, split secondary","",""
-"TP1, TP2","2","U_FL","U_FL","PacSatDev_misc:U_FL SMD","","",""
-"U2","1","TMS570LS0914PGE","TMS570LS0914PGE","PacSatDev_ti:TQFP-144_20x20mm_Pitch0.5mm","","",""
-"U26","1","DS28E83Q+T","DS28E83","PacSatDev_maxim:TDFN_T633_2","","",""
-"U28","1","MAX31331TETB+","MAX31331","Package_DFN_QFN:TDFN-10-1EP_2x3mm_P0.5mm_EP0.9x2mm","","",""
-"U29, U30","2","MAX31725MTA+","MAX31725","PacSatDev_maxim:TDFN_T833_2","","",""
-"U76, U77, U78, U79","4","MR25H40CDE","MR25H40_2","PacSatDev_everspin:MR2xH40_DFN_SmallFlag","","",""
-"U86","1","TPS7A7001DDA","TPS7A7001DDA","Package_SO:TI_SO-PowerPAD-8","2A, Low-Dropout Voltage Regulator, 1.425-6.5V Input, Adjustable Min 0.5V Output, PowerPad SO-8","",""
-"U87","1","MAX1556AEBT+","MAX1556A","PacSatDev_maxim:TDFN_T1033_1","","",""
-"U88","1","MAX1556A","MAX1556A","PacSatDev_maxim:TDFN_T1033_1","","",""
-"U90","1","STWD100NYWY3F","STWD100NYWY3F","Package_TO_SOT_SMD:SOT-353_SC-70-5","","",""
-"U91, U92, U93, U94","4","MAX4995ALAUT","MAX4995_1","Package_TO_SOT_SMD:SOT-23-6_Handsoldering","","",""
-"U155, U207, U208, U306, U307, U406, U506, U507, U605, U606, U607, U608, U609, U610, U611, U612, U613, U702","18","~","U_FL","PacSatDev_misc:U_FL","","",""
-"U156, U205, U305, U405, U505","5","AX5043","AX5043","PacSatDev_onsemi:QFN28","","",""
-"U201","1","RFShield_OnePiece","RF_SHIELD_BOX","PacSatDev_misc:RF_SHIELD_BMI_S_201_F_U201","","",""
-"U206","1","TLP3905","TLP3905","Package_SO:SO-6_4.4x3.6mm_P1.27mm","High Speed Optocoupler, TTL Compatible, CTR 18%, DIP8","",""
-"U301","1","RFShield_OnePiece","RF_SHIELD_BOX","PacSatDev_misc:RF_SHIELD_BMI_S_201_F_U301","","",""
-"U401","1","RFShield_OnePiece","RF_SHIELD_BOX","PacSatDev_misc:RF_SHIELD_BMI_S_202_F_U401","","",""
-"U501","1","RFShield_OnePiece","RF_SHIELD_BOX","PacSatDev_misc:RF_SHIELD_BMI_S_202_F_U501","","",""
-"U602","1","LT6657AHMS8-2.5","LT6657AHMS8-2.5","Package_SO:MSOP-8_3x3mm_P0.65mm","Precision voltage reference, 40V input, 10mA output, 1.5ppm/C drift, 2.5V output, MSOP-8","",""
-"U604","1","RBP-140+","RBP-140+_1","RF_Mini-Circuits:Mini-Circuits_GP731","","",""
-"U652","1","CDCLVC1106","CDCLVP1106","Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm","","",""
-"U701","1","RFShield_OnePiece","RFShield_OnePiece","PacSatDev_misc:RF_SHIELD_PAD","One-piece EMI RF shielding cabinet","",""
-"U703","1","4n7","L","PacSatDev_misc:L_Murata_LQH2MCNxxxx02_2.0x1.6mm","Inductor","",""
-"U704, U706","2","SMA","U_FL","PacSatDev_misc:U_FL","","",""
-"U705","1","SXBP-425+","SXBP-202","PacSatDev_misc:Mini-Circuits_HF1139_LandPatternPL-230","Bandpass Filter, 198 to 206 MHz, 50 Ohm, Mini-Circuits HF1139","",""
-"Y26","1","AB26T-32.768KHZ-6B","Crystal","Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal","Two pin crystal","",""
-"Y601","1","588S160X2CAT","FT5HV","PacSatDev_misc:Oscillator_SMD_CTS_4X5mm","HCMOS temperature compensated voltage controlled oscillator","",""
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"C2,C3,C4,C5,C6,C7,C8,C9,C77,C76,C79,C78,C31,C32,C10";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";15;"100n";;;
+2;"D2";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"RED";;;
+3;"D3";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"YEL";;;
+4;"U2";"TQFP-144_20x20mm_Pitch0.5mm";1;"TMS570LS0914PGE";;;
+5;"C98,C99,C97,C122,C123,C100,C101,C121";"C_0805_2012Metric_Pad1.18x1.45mm_HandSolder";8;"1u";;;
+6;"R402,R109,R108,R203,R202,R403,R502,R86,R302,R303,R152,R153,R503,R87";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";14;"0R";;;
+7;"C702,C406,C156";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";3;"5p6";;;
+8;"C709,C712";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"100p";;;
+9;"L505,L151,L158,L301,L201,L408";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";6;"0";;;
+10;"C502,C503";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"22p";;;
+11;"U401";"RF_SHIELD_BMI_S_202_F_U401";1;"RFShield_OnePiece";;;
+12;"C711,C708";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"15p";;;
+13;"R92,R603";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"1K";;;
+14;"C202,C302,C157,C301,C701,C703,C201,C158,C409,C501,C410";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";11;"4p3";;;
+15;"C162,C206,C408,C507,C414,C306,C407";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";7;"10p";;;
+16;"C91,C94,C95";"C_2220_5650Metric_Pad1.97x5.40mm_HandSolder";3;"22u";;;
+17;"Q701";"SOT-89-3";1;"ATF05MS004NT1";;;
+18;"C713,C705,C717,C716,C715";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";5;"2200p";;;
+19;"REF**,REF**,REF**";"Fiducial_0.75mm_Mask1.5mm";3;"Fiducial_0.75mm_Mask1.5mm";;;
+20;"U77,U76,U78,U79";"MR2xH40_DFN_SmallFlag";4;"MR25H40CDE";;;
+21;"C651,C652,C653,C654";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"0.1u";;;
+22;"R93,R96,R94";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"45k8 1%";;;
+23;"TP2,TP1";"U_FL SMD";2;"U_FL";;;
+24;"R8,R7,R6,R604";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"3K";;;
+25;"C203,C204,C160,C411,C412,C159,C163,C303,C207,C505,C504,C304,C508,C307,C102,C103,C415";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";17;"10n";;;
+26;"H15,H13,H10,H11,H17,H14,H12,H16";"Wire_Hole";8;"Wire_Hole";;;
+27;"D5";"LED_1206_3216Metric_Pad1.42x1.75mm_HandSolder";1;"LED";;;
+28;"R601";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"5 Meg";;;
+29;"C403,C401";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"27p";;;
+30;"U26";"TDFN_T633_2";1;"DS28E83Q+T";;;
+31;"U28";"TDFN-10-1EP_2x3mm_P0.5mm_EP0.9x2mm";1;"MAX31331TETB+";;;
+32;"R107,R652,R110,R100,R651,R97,R803,R806,R807,R112,R801,R809,R805,R802,R808,R602,R804";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";17;"10K";;;
+33;"R98,R99,R88";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";3;"4.7k";;;
+34;"R30,R29,R31,R28,R111,R104";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";6;"4k7";;;
+35;"C506,C413,C161,C205,C305";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";5;"6.8p";;;
+36;"H104,H103,H102,H101";"CUBESAT_MOUNT_HOLE";4;"CUBESAT_MOUNT_HOLE";;;
+37;"P651";"PacSat_Dev_4_26";1;"Conn_04x26_Pin";;;
+38;"L403,L504,L501,L502,L503,L402";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";6;"68n";;;
+39;"R90,R91,R106,R105";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"10k";;;
+40;"C405";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"1p";;;
+41;"U87";"TDFN_T1033_1";1;"MAX1556AEBT+";;;
+42;"C152,C151,C153,C402,C704";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";5;"NS";;;
+43;"L703";"L_0603";1;"18n";;;
+44;"C89,C90";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"1000p";;;
+45;"L401";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"30";;;
+46;"R201,R401,R301,R151,R501,R610";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";6;"50";;;
+47;"L708";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"2n55";;;
+48;"U705";"Mini-Circuits_HF1139_LandPatternPL-230";1;"SXBP-425+";;;
+49;"C603,C607,C602";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";3;"0.1 u";;;
+50;"L702,L154,L155";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";3;"43n";;;
+51;"L706,L705";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";2;"5n5";;;
+52;"C29,C30";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"22u";;;
+53;"C606,C707,C605,C604";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";4;"1u";;;
+54;"C154";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"5p1";;;
+55;"L153,L152";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";2;"27n";;;
+56;"U91,U92,U93,U94";"SOT-23-6_Handsoldering";4;"MAX4995ALAUT";;;
+57;"R702,R701";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"22";;;
+58;"C714,C92,C96";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";3;"10u";;;
+59;"T601";"Mini-Circuits_CD542_H2.84mm";1;"ADT4-1WT+";;;
+60;"L87,L86,L88";"L_1210_3225Metric_Pad1.42x2.65mm_HandSolder";3;"3u3";;;
+61;"L709";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"8n1";;;
+62;"U301";"RF_SHIELD_BMI_S_201_F_U301";1;"RFShield_OnePiece";;;
+63;"Q601";"TB-471";1;"SAV-331+";;;
+64;"R13,R2,R3,R4,R5";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";5;"3k3";;;
+65;"R113";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"3.8K";;;
+66;"C706";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"18p";;;
+67;"D27,D26";"D_0603_1608Metric";2;"RB521CS30L,315 ";;;
+68;"U156,U405,U305,U505,U205";"QFN28";5;"AX5043";;;
+69;"L601";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"620nH";;;
+70;"JP86,JP87";"SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm";2;"Disable Watchdog";;;
+71;"U29,U30";"TDFN_T833_2";2;"MAX31725MTA+";;;
+72;"U652";"HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm";1;"CDCLVC1106";;;
+73;"FB651,FB652";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"FerriteBead_Small";;;
+74;"C155";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"11p";;;
+75;"D4";"LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder";1;"GRN";;;
+76;"L156,L157";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";2;"100n";;;
+77;"U701";"RF_SHIELD_PAD";1;"RFShield_OnePiece";;;
+78;"C28,C86,C87";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";3;"470n";;;
+79;"L704";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"1n2";;;
+80;"R11,R12,R9,R10";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";4;"1k";;;
+81;"U501";"RF_SHIELD_BMI_S_202_F_U501";1;"RFShield_OnePiece";;;
+82;"C88,C93";"C_2220_5650Metric_Pad1.97x5.40mm_HandSolder";2;"10u";;;
+83;"R95";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"143k 1%";;;
+84;"Y26";"Crystal_AT310_D3.0mm_L10.0mm_Horizontal";1;"AB26T-32.768KHZ-6B";;;
+85;"U90,U95";"SOT-353_SC-70-5";2;"STWD100NYWY3F";;;
+86;"J2";"FTSH-105-01-L-DV-K";1;"CONN_02X05";;;
+87;"C710";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"56p";;;
+88;"L406,L407";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";2;"150n";;;
+89;"L701";"L_0603";1;"100n";;;
+90;"R14";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"2.4K";;;
+91;"PS602,PS601";"CJ725";2;"AD4PS+1";;;
+92;"U703";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"4n7";;;
+93;"L404,L405";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";2;"120n";;;
+94;"C404";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"12p";;;
+95;"L707";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"16n6";;;
+96;"C27";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"6p";;;
+97;"U201";"RF_SHIELD_BMI_S_201_F_U201";1;"RFShield_OnePiece";;;
+98;"FB701,FB702";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";2;"2743019447";;;
+99;"U604";"Mini-Circuits_GP731";1;"RBP-140+";;;
+100;"Y601";"Oscillator_SMD_CTS_4X5mm";1;"588S160X2CAT";;;
+101;"U86";"TI_SO-PowerPAD-8";1;"TPS7A7001DDA";;;
+102;"J801";"PinHeader_2x05_P2.54mm_Vertical";1;"Conn_02x05_Odd_Even";;;
+103;"L602";"L_Murata_LQH2MCNxxxx02_2.0x1.6mm";1;"120 nH";;;
+104;"C601";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"2.2 nF";;;
+105;"U89";"SOT-23-6";1;"TPS22917DBV";;;
+106;"P201,P602,P100,P606,P701,P301,P603,P605,P502,P302,P202,P610,P608,P604,P609,P501,P607,P401";"U_FL";18;"~";;;
+107;"Q602";"SO-8_3.9x4.9mm_P1.27mm";1;"~";;;
+108;"JP88";"SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm";1;"Disable  WD Shutdown";;;
+109;"P703,P702,P101,P601";"U_FL";4;"U_FL";;;
+110;"U602";"MSOP-8_3x3mm_P0.65mm";1;"LT6657AHMS8-2.5";;;
+111;"R606";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"5K";;;
+112;"R102";"R_1210_3225Metric_Pad1.30x2.65mm_HandSolder";1;"PLTT1206Z0303BGTS";;;
+113;"U206";"SO-6_4.4x3.6mm_P1.27mm";1;"TLP3905";;;
+114;"R103";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"PLTT1206Z0011BGTS";;;
+115;"R89";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"10";;;
+116;"U88";"TDFN_T1033_1";1;"MAX1556A";;;
+117;"R101";"R_1210_3225Metric_Pad1.30x2.65mm_HandSolder";1;"PLTT1206Z2743BGTS";;;
+118;"R607";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"1MEG";;;
+119;"R605";"R_0603_1608Metric_Pad0.98x0.95mm_HandSolder";1;"2K";;;

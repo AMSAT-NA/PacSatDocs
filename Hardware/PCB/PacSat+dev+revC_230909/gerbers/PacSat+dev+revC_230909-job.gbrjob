@@ -5,12 +5,12 @@
       "Application": "Pcbnew",
       "Version": "7.0.7-7.0.7~ubuntu22.04.1"
     },
-    "CreationDate": "2023-09-09T16:16:37-05:00"
+    "CreationDate": "2023-09-14T09:00:47-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "pACsAT_dEV_rEVc_230907",
-      "GUID": "70414373-4154-45f6-9445-565f72455663",
+      "Name": "PacSat+dev+revC_230909",
+      "GUID": "50616353-6174-42b6-9465-762b72657643",
       "Revision": "0"
     },
     "Size": {
@@ -41,67 +41,67 @@
   ],
   "FilesAttributes": [
     {
-      "Path": "pACsAT_dEV_rEVc_230907-Top Components_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-Top Components_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-GND_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-GND_Cu.gbr",
       "FileFunction": "Copper,L2,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-Signal 1 H_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-Signal 1 H_Cu.gbr",
       "FileFunction": "Copper,L3,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-Signal 2 V_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-Signal 2 V_Cu.gbr",
       "FileFunction": "Copper,L4,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-Power_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-Power_Cu.gbr",
       "FileFunction": "Copper,L5,Inr",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-BackComponets_Cu.gbr",
+      "Path": "PacSat+dev+revC_230909-BackComponets_Cu.gbr",
       "FileFunction": "Copper,L6,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-F_Paste.gbr",
+      "Path": "PacSat+dev+revC_230909-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-B_Paste.gbr",
+      "Path": "PacSat+dev+revC_230909-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-F_Silkscreen.gbr",
+      "Path": "PacSat+dev+revC_230909-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-B_Silkscreen.gbr",
+      "Path": "PacSat+dev+revC_230909-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-F_Mask.gbr",
+      "Path": "PacSat+dev+revC_230909-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-B_Mask.gbr",
+      "Path": "PacSat+dev+revC_230909-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "pACsAT_dEV_rEVc_230907-Edge_Cuts.gbr",
+      "Path": "PacSat+dev+revC_230909-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }

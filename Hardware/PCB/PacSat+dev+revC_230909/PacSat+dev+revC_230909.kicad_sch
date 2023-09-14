@@ -156,11 +156,6 @@
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 524627b2-8471-48d9-b640-2ac6258da3af)
   )
-  (text "Need to verify the MISO on AX5042\nis a Tri State output or open collector.\nData Sheet just says output."
-    (at 210.82 156.21 0)
-    (effects (font (size 1.524 1.524) (color 255 0 0 1)) (justify left bottom))
-    (uuid 60fcda9f-eabd-43e5-8741-4954ec8eb7ea)
-  )
   (text "800" (at 271.78 88.9 0)
     (effects (font (size 1.524 1.524)) (justify left bottom))
     (uuid 80b216af-94b7-485f-9623-980be68f41aa)
@@ -207,7 +202,7 @@
     )
     (pin "1" (uuid 10b15df6-4428-4d11-b522-17e9cfc20077))
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38"
           (reference "H101") (unit 1)
         )
@@ -232,7 +227,7 @@
     )
     (pin "1" (uuid 4d3c1c1e-ad7e-4a12-883e-18f1edd21ef4))
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38"
           (reference "H102") (unit 1)
         )
@@ -257,7 +252,7 @@
     )
     (pin "1" (uuid b9a57f96-5095-4890-8346-780a5bc34b88))
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38"
           (reference "H103") (unit 1)
         )
@@ -282,7 +277,7 @@
     )
     (pin "1" (uuid 7748e43f-8da7-4f77-a7ef-ff7772a45f36))
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38"
           (reference "H104") (unit 1)
         )
@@ -307,7 +302,7 @@
     )
     (pin "1" (uuid adc8ae59-a016-4a27-9406-700e0bd98d04))
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38"
           (reference "#PWR0101") (unit 1)
         )
@@ -326,7 +321,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "6"))
       )
     )
@@ -343,7 +338,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "8"))
       )
     )
@@ -360,7 +355,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "5"))
       )
     )
@@ -377,7 +372,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "15"))
       )
     )
@@ -394,7 +389,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "7"))
       )
     )
@@ -411,7 +406,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "17"))
       )
     )
@@ -428,7 +423,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "9"))
       )
     )
@@ -445,7 +440,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "2"))
       )
     )
@@ -462,7 +457,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "4"))
       )
     )
@@ -479,7 +474,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "12"))
       )
     )
@@ -496,7 +491,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "13"))
       )
     )
@@ -513,7 +508,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "14"))
       )
     )
@@ -530,7 +525,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "10"))
       )
     )
@@ -547,7 +542,7 @@
       (effects (font (size 1.524 1.524)) (justify left top))
     )
     (instances
-      (project "pACsAT_dEV_rEVc_230907"
+      (project "PacSat+dev+revC_230909"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38" (page "11"))
       )
     )

@@ -14,4 +14,7 @@ Reduced pad size under AX5043 to insure not shorts.
 Changed some of the part numbers assigned to schematic parts to make better since.
 9/10/23
 Updated PDF of schematic and PCB. Added BOM to folder.
+9/14/23
+Changed power supply to feed off +5VDC regulator. Added pull-up to HW_POWER_OFF_N.
+Verified all Vcc, VccIO, and GND connections on CPU.
 
