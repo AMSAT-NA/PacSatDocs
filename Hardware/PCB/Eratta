@@ -16,4 +16,6 @@ Updated PDF of schematic and PCB. Added BOM to folder.
 9/14/23
 Changed power supply to feed off +5VDC regulator. Added pull-up to HW_POWER_OFF_N.
 Verified all Vcc, VccIO, and GND connections on CPU.
+9/14/23  8:28 PM
+Add A/D taps for 1.2V 3.3V and 5V power supply.
 
