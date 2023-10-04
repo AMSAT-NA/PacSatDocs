@@ -1,0 +1,63 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DS28E83
+D Radiation Resistant 1-Wire Authenticator
+$ENDCMP
+#
+$CMP MAX14932
+D Four-Channel, 3.75kVRMS Digital Isolator
+$ENDCMP
+#
+$CMP MAX14936
+D Four-Channel, 5kVRMS Digital Isolator
+$ENDCMP
+#
+$CMP MAX1556A
+D 16µA IQ, 1.2A PWM Step-Down DC-DC Converters
+$ENDCMP
+#
+$CMP MAX17501A
+D Fixed 3v3 500mA, Ultra-Small, High-Efficiency, Synchronous Step-Down DC-DC Converter
+$ENDCMP
+#
+$CMP MAX17501G
+D Adjustable 500mA, Ultra-Small, High-Efficiency, Synchronous Step-Down DC-DC Converter
+$ENDCMP
+#
+$CMP MAX1792EUA18
+D Fixed 1.8v 500mA Low-Dropout Linear Regulator in µMAX
+$ENDCMP
+#
+$CMP MAX1792EUA33
+D Fixed 3.3v 500mA Low-Dropout Linear Regulator in µMAX
+$ENDCMP
+#
+$CMP MAX2850
+D 5GHz, 4-Channel MIMO Transmitter
+$ENDCMP
+#
+$CMP MAX3051
+D CAN Transciever, +3.3v, 1Mbps
+$ENDCMP
+#
+$CMP MAX31725
+D I2C Temperature Sensor
+$ENDCMP
+#
+$CMP MAX40200
+D 1A Ideal Diode with Ultra-Low Voltage Drop
+$ENDCMP
+#
+$CMP MAX4795
+D 450mA Current-Limit Switch
+$ENDCMP
+#
+$CMP MAX4995
+D 50mA to 600mA Programmable Current-Limit Switch
+$ENDCMP
+#
+$CMP MAX77504
+D 14V Input, 3A High-Efficiency Buck Converter
+$ENDCMP
+#
+#End Doc Library

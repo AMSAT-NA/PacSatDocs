@@ -12,3 +12,8 @@ Added a realtime clock chip to design. I2C interface - 65 nA standby current
 May 25, 2023
 Upload Schematic with edits and corrections. Removed earlier version.
 
+August 29, 2023 
+Upload this newer version of schematic with changes and corrections. Includes a different
+Power Amp, Connector IO, and other improvements.
+Still needs more review and work but can be used to build a prototype for testing.
+

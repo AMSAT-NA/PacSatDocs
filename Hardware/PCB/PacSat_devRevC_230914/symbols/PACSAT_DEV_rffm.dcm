@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RFFM6403
+D 2.5V to 4.2V, ISM Band, 1W, 405MHz to 475MHz LNA/PA
+$ENDCMP
+#
+#End Doc Library

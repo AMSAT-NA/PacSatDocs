@@ -1,0 +1,13 @@
+(module STITCH (layer F.Cu) (tedit 5DFFD4F9)
+  (descr "Ground-plane stitch, courtyard intentionally small to prevent DRC errors")
+  (fp_text reference REF** (at 0 1.3) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value STITCH (at 0 -1.1) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_circle (center 0 0) (end 0.05 -0.225) (layer F.CrtYd) (width 0.05))
+  (fp_circle (center 0 0) (end 0.05 -0.225) (layer B.CrtYd) (width 0.05))
+  (pad 1 thru_hole circle (at 0 0) (size 0.6858 0.6858) (drill 0.3302) (layers *.Cu)
+    (zone_connect 2))
+)

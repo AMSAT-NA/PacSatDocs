@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MR25H40
+D MRAM 512kB SPI 40MHz
+$ENDCMP
+#
+#End Doc Library
