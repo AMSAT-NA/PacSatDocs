@@ -20,5 +20,14 @@ Verified all Vcc, VccIO, and GND connections on CPU.
 Add A/D taps for 1.2V 3.3V and 5V power supply.
 10/5/23
 Added a foot print for second crystal. Made adjustments to traces and holes.
+10/24/23
+Based on inputs from PCB assembly house after review of footprints used
+changes were made to the PCB layout to correct a few footprints. Changes were
+also made the BOM to select proper parts with matching footprints because a few 1020 inductors were included and these will be difficult to solder.
+
+Also generated 3D CAD drawings of parts to support KiCAD 3D view. Now have parts in all
+locations.
+
+Regenerated the Gerber and the drill files.
 
 

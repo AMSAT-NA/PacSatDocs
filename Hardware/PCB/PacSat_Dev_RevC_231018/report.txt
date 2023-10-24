@@ -1,0 +1,6 @@
+Info: Front (top side) placement file: '/home/bob/Projects/PacSat_Dev_RevC_231004/gerbers/PacSat_Dev_RevC_231004-top.pos'.
+Info: Component count: 242.
+Info: Back (bottom side) placement file: '/home/bob/Projects/PacSat_Dev_RevC_231004/gerbers/PacSat_Dev_RevC_231004-bottom.pos'.
+Info: Component count: 57.
+Info: Full component count: 299.
+Info: File generation successful.
