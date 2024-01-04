@@ -1,4 +1,4 @@
-### Footprint positions - created on Mon 23 Oct 2023 07:07:18 PM CDT ###
+### Footprint positions - created on Thu 26 Oct 2023 03:59:09 PM CDT ###
 ### Printed by KiCad version 7.0.7-7.0.7~ubuntu22.04.1
 ## Unit = inches, Angle = deg.
 ## Side : top
@@ -210,8 +210,8 @@ R652      10K                        R_0603_1608Metric_Pad0.98x0.95mm_HandSolder
 R701      22                         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder             1.2805     0.4945   90.0000  top
 R702      22                         R_0603_1608Metric_Pad0.98x0.95mm_HandSolder             1.2805     0.6405   90.0000  top
 REF**     Fiducial_0.75mm_Mask1.5mm  Fiducial_0.75mm_Mask1.5mm                               0.3235     3.0975    0.0000  top
-REF**     Fiducial_0.75mm_Mask1.5mm  Fiducial_0.75mm_Mask1.5mm                               3.2283     3.5197    0.0000  top
 REF**     Fiducial_0.75mm_Mask1.5mm  Fiducial_0.75mm_Mask1.5mm                               1.5765     0.0835    0.0000  top
+REF**     Fiducial_0.75mm_Mask1.5mm  Fiducial_0.75mm_Mask1.5mm                               3.2283     3.5197    0.0000  top
 T601      ADT4-1WT+                  Mini-Circuits_CD542_H2.84mm                             2.1895     1.5105   90.0000  top
 TP1       U_FL                       U_FL_SMD                                                0.0800     1.5645    0.0000  top
 TP2       U_FL                       U_FL_SMD                                                0.0795     2.1065  180.0000  top
