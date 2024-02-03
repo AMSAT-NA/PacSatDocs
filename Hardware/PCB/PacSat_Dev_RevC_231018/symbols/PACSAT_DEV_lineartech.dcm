@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT1963A
+D Adjustable 1.5A, Low Noise, Fast Transient Response, LDO Regulator
+$ENDCMP
+#
+$CMP LT1963A-3.3
+D Fixed 3.3v 1.5A, Low Noise, Fast Transient Response, LDO Regulator
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,33 @@
+8/29/23
+PCB image as it currently exist. Still needs more work before sending to PCB shop. 
+Must balance the lenth of all differential traces.
+Review trace widths to make them larger where possible.
+Check package outlines
+Check Pinout
+Make sure all Vcc and GND connections on parts are connected.
+9/7/23
+Updating with most task completed to support sending to PCB shop/
+9/9/23
+Added circuit to support watchdog for Transmitter shutdown.
+Reduced pad size under AX5043 to insure not shorts.
+Changed some of the part numbers assigned to schematic parts to make better since.
+9/10/23
+Updated PDF of schematic and PCB. Added BOM to folder.
+9/14/23
+Changed power supply to feed off +5VDC regulator. Added pull-up to HW_POWER_OFF_N.
+Verified all Vcc, VccIO, and GND connections on CPU.
+9/14/23  8:28 PM
+Add A/D taps for 1.2V 3.3V and 5V power supply.
+10/5/23
+Added a foot print for second crystal. Made adjustments to traces and holes.
+10/24/23
+Based on inputs from PCB assembly house after review of footprints used
+changes were made to the PCB layout to correct a few footprints. Changes were
+also made the BOM to select proper parts with matching footprints because a few 1020 inductors were included and these will be difficult to solder.
+
+Also generated 3D CAD drawings of parts to support KiCAD 3D view. Now have parts in all
+locations.
+
+Regenerated the Gerber and the drill files.
+
+

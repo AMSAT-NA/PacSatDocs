@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +1V2_PRI
+D Power Net, Primary, +1.2V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +1V2_SEC
+D Power Net, Secondary, +1.2V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_PRI
+D Power Net, Primary, +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP +3V3_SEC
+D Power Net, Secondary, +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+$CMP ARB_BATT
+D Power Net, Secondary, +3.3V
+K Power Flag Symbol
+$ENDCMP
+#
+#End Doc Library
