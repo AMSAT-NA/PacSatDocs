@@ -1,0 +1,34 @@
+Drill report for PacSat_Dev_RevC_231018.kicad_pcb
+Created on Fri 27 Oct 2023 02:14:18 PM CDT
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  Top Components.Cu         front
+    L2 :  GND.Cu                    in1
+    L3 :  Signal 1 H.Cu             in2
+    L4 :  Signal 2 V.Cu             in3
+    L5 :  Power.Cu                  in4
+    L6 :  BackComponets.Cu          back
+
+
+Drill file 'PacSat_Dev_RevC_231018-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.305mm  0.0120"  (759 holes)
+    T2  0.500mm  0.0197"  (2 holes)
+    T3  0.508mm  0.0200"  (26 holes)
+    T4  0.635mm  0.0250"  (45 holes)
+    T5  0.762mm  0.0300"  (22 holes)
+    T6  0.889mm  0.0350"  (12 holes)
+    T7  0.965mm  0.0380"  (104 holes)
+    T8  1.000mm  0.0394"  (10 holes)
+    T9  3.175mm  0.1250"  (4 holes)
+
+    Total plated holes count 984
+
+
+Drill file 'PacSat_Dev_RevC_231018-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
