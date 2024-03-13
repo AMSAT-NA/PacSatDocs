@@ -1350,7 +1350,7 @@
     (pin "2" (uuid 38cd789c-3c0d-4c56-92cd-c4871fd90a94))
     (pin "3" (uuid ee826256-73fe-426e-9097-0152e83192ad))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "P701") (unit 1)
         )
@@ -1376,7 +1376,7 @@
     (pin "1" (uuid ba7d7a6a-191f-40ca-88a6-3002e81eac8c))
     (pin "2" (uuid 2a8a4129-57b0-4720-9dcb-f5b9806ceea0))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L701") (unit 1)
         )
@@ -1401,7 +1401,7 @@
     )
     (pin "1" (uuid e27523a4-cb34-45c9-9c34-f3ccc7c677b8))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0156") (unit 1)
         )
@@ -1427,7 +1427,7 @@
     (pin "1" (uuid 0a727d9a-1c6e-46cc-9a34-ebcf7a3d87a0))
     (pin "2" (uuid b8d3a24a-a0ab-45ec-8f45-179f93f04054))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C716") (unit 1)
         )
@@ -1453,7 +1453,7 @@
     (pin "1" (uuid 23c2c753-701f-4555-b08d-2489025251b9))
     (pin "2" (uuid efcc09cd-0051-4432-a77e-a734c0fdf3df))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C712") (unit 1)
         )
@@ -1479,7 +1479,7 @@
     (pin "1" (uuid f52c6c8b-a03c-4dca-85f5-0dd2095f0181))
     (pin "2" (uuid 8f5f481d-6661-43fa-808a-5cd5abfe8e07))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L708") (unit 1)
         )
@@ -1515,7 +1515,7 @@
     (pin "2" (uuid a34f6a0c-a768-4290-87eb-249f3bf08384))
     (pin "3" (uuid 849e4167-671d-4460-a424-710f7617b7ec))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "Q701") (unit 1)
         )
@@ -1541,7 +1541,7 @@
     (pin "1" (uuid 75d9c436-767a-48de-ae2b-5e7742ad9e39))
     (pin "2" (uuid 5fe6236f-12e3-4636-ad8a-d958397d47bf))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C708") (unit 1)
         )
@@ -1567,7 +1567,7 @@
     (pin "1" (uuid b2a66661-96b5-4f2b-b5af-90b52b3cd88f))
     (pin "2" (uuid cbbbb6a8-f764-401b-aa2d-e5ab0a58a610))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C715") (unit 1)
         )
@@ -1592,7 +1592,7 @@
     )
     (pin "1" (uuid 2bae6575-5585-4be5-b9f1-0d10e2430e40))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0152") (unit 1)
         )
@@ -1617,7 +1617,7 @@
     )
     (pin "1" (uuid a7d5abd9-31b0-4cfa-b735-784a22b238dc))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0150") (unit 1)
         )
@@ -1642,7 +1642,7 @@
     )
     (pin "1" (uuid d1315516-254c-4468-8ec9-4f2180e67297))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0194") (unit 1)
         )
@@ -1667,7 +1667,7 @@
     )
     (pin "1" (uuid 627ec557-7876-464d-ab59-e051f2212c10))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0157") (unit 1)
         )
@@ -1692,7 +1692,7 @@
     )
     (pin "1" (uuid 555ab122-4790-4001-b8a8-67e8679cef45))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "U701") (unit 1)
         )
@@ -1719,7 +1719,7 @@
     (pin "2" (uuid 1eb681d5-85a4-4486-a7a5-1d8906115e9c))
     (pin "3" (uuid e357994e-9553-41ff-967a-623371d75cab))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "P703") (unit 1)
         )
@@ -1744,7 +1744,7 @@
     )
     (pin "1" (uuid 8b3ff7d8-69f2-4371-90a1-9a3c175de01d))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0155") (unit 1)
         )
@@ -1769,7 +1769,7 @@
     )
     (pin "1" (uuid 6d3775bf-6611-4443-b510-b7a0559ff9c2))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0159") (unit 1)
         )
@@ -1794,7 +1794,7 @@
     )
     (pin "1" (uuid bda49cdc-8391-4235-ab2e-9d7d5f557cca))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0160") (unit 1)
         )
@@ -1819,7 +1819,7 @@
     )
     (pin "1" (uuid 0d18b38d-868f-4183-8977-484d26fbfa5f))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0200") (unit 1)
         )
@@ -1845,7 +1845,7 @@
     (pin "1" (uuid 2efd6539-588c-4d38-84db-68bd4c1f29f8))
     (pin "2" (uuid 41c3569c-2cb4-4f42-9bab-cc736ccd0c88))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C707") (unit 1)
         )
@@ -1870,7 +1870,7 @@
     )
     (pin "1" (uuid ec1b0c5d-9d7a-4867-9b52-9a2fc1086b07))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0196") (unit 1)
         )
@@ -1896,7 +1896,7 @@
     (pin "1" (uuid 6b1c5b4e-8681-424b-952f-faee549291b0))
     (pin "2" (uuid 7964da7c-3f41-4200-99ea-c4ec616f26c1))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C714") (unit 1)
         )
@@ -1922,7 +1922,7 @@
     (pin "1" (uuid e8439108-1706-44b6-9467-2916ebfcbd53))
     (pin "2" (uuid ebd44f56-f18b-4ce8-867a-37e3e1574f95))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C702") (unit 1)
         )
@@ -1947,7 +1947,7 @@
     )
     (pin "1" (uuid de24d416-9be8-45c3-b67f-fe6468c76456))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0158") (unit 1)
         )
@@ -1973,7 +1973,7 @@
     (pin "1" (uuid 3ce8692c-38be-490c-8abd-e81211cf3d60))
     (pin "2" (uuid 03d9b575-ebec-4f35-ba4c-ee32a10b6ebe))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C704") (unit 1)
         )
@@ -1998,7 +1998,7 @@
     )
     (pin "1" (uuid 72e110df-2e1a-496d-a07b-2ef06e0f9990))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0195") (unit 1)
         )
@@ -2023,7 +2023,7 @@
     )
     (pin "1" (uuid 68d17a96-6f25-45e8-8116-77cac897c3ec))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0197") (unit 1)
         )
@@ -2049,7 +2049,7 @@
     (pin "1" (uuid 2ebabbb7-5ac4-46ed-914d-a72799631749))
     (pin "2" (uuid 16d84d90-98a7-43f8-9b7e-47a333792a4d))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "FB701") (unit 1)
         )
@@ -2074,7 +2074,7 @@
     )
     (pin "1" (uuid bc70367d-6a2f-4203-952e-4d89153c1b0c))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0154") (unit 1)
         )
@@ -2100,7 +2100,7 @@
     (pin "1" (uuid dd856936-3c98-40b8-966b-0d2a4a9767db))
     (pin "2" (uuid df57ff66-c9c9-4385-982b-51b1dcf2eeda))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C705") (unit 1)
         )
@@ -2126,7 +2126,7 @@
     (pin "1" (uuid 707ac128-86e4-4b25-99df-3b3e4b763c23))
     (pin "2" (uuid 376e5aba-33ab-49cf-b08c-2ca80af7d01c))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L707") (unit 1)
         )
@@ -2152,7 +2152,7 @@
     (pin "1" (uuid 27ac52a8-e5b4-4fec-b480-44d7e6156c22))
     (pin "2" (uuid 5155c1ab-7fd5-4565-894d-db21f3e576fd))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L710") (unit 1)
         )
@@ -2178,7 +2178,7 @@
     (pin "1" (uuid 73997996-e537-4e9b-bc9a-5479cff70e19))
     (pin "2" (uuid 02e50922-9725-44ad-baae-b64ae1ea28b9))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C701") (unit 1)
         )
@@ -2203,7 +2203,7 @@
     )
     (pin "1" (uuid 32e9861a-c6fb-4378-bb7a-63fa0b2b1145))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0153") (unit 1)
         )
@@ -2229,7 +2229,7 @@
     (pin "1" (uuid 6ca76ae5-3c1f-4d01-8f3f-34d082c8761c))
     (pin "2" (uuid 7f259f4a-6832-4b85-a690-6646e93eafe5))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L709") (unit 1)
         )
@@ -2255,7 +2255,7 @@
     (pin "1" (uuid f4d52715-da59-470a-9481-fea07b286dce))
     (pin "2" (uuid 596cfead-563f-4cb3-8b3f-27381f3a9da2))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L702") (unit 1)
         )
@@ -2280,7 +2280,7 @@
     )
     (pin "1" (uuid 0bb0d285-8c85-4384-b62d-d422ee040b1e))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0199") (unit 1)
         )
@@ -2306,7 +2306,7 @@
     (pin "1" (uuid 3944108d-6c1e-4dbe-9eb2-200978dedb24))
     (pin "2" (uuid bf0195ae-e958-4b08-9b92-d9e237ef5617))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C711") (unit 1)
         )
@@ -2332,7 +2332,7 @@
     (pin "1" (uuid c2f86d3b-b229-4cae-aa95-3f6c7e081705))
     (pin "2" (uuid cab76dcd-0599-4653-9af2-336e3763af05))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "R702") (unit 1)
         )
@@ -2358,7 +2358,7 @@
     (pin "1" (uuid be06c5d3-087d-4683-a1d3-75a450e141a2))
     (pin "2" (uuid fcf4b413-c539-4272-9f84-5fec96a9eb0f))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C710") (unit 1)
         )
@@ -2390,7 +2390,7 @@
     (pin "7" (uuid b90f3085-abae-421c-98bd-ce154813091c))
     (pin "8" (uuid 65886ce2-48ca-4fd7-a4fe-75878257d526))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "U705") (unit 1)
         )
@@ -2415,7 +2415,7 @@
     )
     (pin "1" (uuid b64783e2-1c43-43b7-9af5-85ab3646d014))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0151") (unit 1)
         )
@@ -2442,7 +2442,7 @@
     (pin "2" (uuid 29ce0f6a-c5c8-4306-8aa5-94b5dd6cebb8))
     (pin "3" (uuid 92189634-fb77-4aee-8ab0-28d1b9c12310))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "P702") (unit 1)
         )
@@ -2467,7 +2467,7 @@
     )
     (pin "1" (uuid a9d1dc0c-efbf-4ad6-af1d-1423960a83d1))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0701") (unit 1)
         )
@@ -2493,7 +2493,7 @@
     (pin "1" (uuid 2c7ab96e-0354-4494-92d6-9302cc225d19))
     (pin "2" (uuid e8887254-633c-484f-beb1-7843435a1330))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C717") (unit 1)
         )
@@ -2518,7 +2518,7 @@
     )
     (pin "1" (uuid 2d986545-14ac-4a85-a2b5-44be33d2b2df))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0193") (unit 1)
         )
@@ -2543,7 +2543,7 @@
     )
     (pin "1" (uuid 61bd7a81-16cd-40c1-b74e-0ab9f882944b))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0161") (unit 1)
         )
@@ -2569,7 +2569,7 @@
     (pin "1" (uuid cd7005c3-1902-4062-8c77-ddda4b7b0ac9))
     (pin "2" (uuid e8bc0dce-88b8-4df4-8e52-1914cdb0bb27))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "R701") (unit 1)
         )
@@ -2595,7 +2595,7 @@
     (pin "1" (uuid 9463ca73-d885-42b3-be7d-ab6bbd5a2c51))
     (pin "2" (uuid a078f6ab-5574-4bbc-9f43-7967bb9caec6))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C713") (unit 1)
         )
@@ -2621,7 +2621,7 @@
     (pin "1" (uuid cfebf5b5-1d04-41bb-8a84-e0a88bd0c9d0))
     (pin "2" (uuid aa604c5e-5cdd-4c72-8be1-86879ae3828e))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L703") (unit 1)
         )
@@ -2647,7 +2647,7 @@
     (pin "1" (uuid 9d7f9201-ed01-4154-9c65-7f50bd44f25c))
     (pin "2" (uuid 0def7172-de11-43a7-9a20-d72adf0c241c))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C706") (unit 1)
         )
@@ -2673,7 +2673,7 @@
     (pin "1" (uuid 14aa6314-a813-47ae-a910-ba16190dd990))
     (pin "2" (uuid 09a4c62b-f309-4f21-b108-9e988389b4a6))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "FB702") (unit 1)
         )
@@ -2698,7 +2698,7 @@
     )
     (pin "1" (uuid 0d3541ac-aaef-4ead-9523-14032f7371ab))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#FLG0701") (unit 1)
         )
@@ -2724,7 +2724,7 @@
     (pin "1" (uuid f5f5d1bf-d890-445f-825e-c935b765908b))
     (pin "2" (uuid 60bba206-69d8-4f15-a649-01d8a4cd923c))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C703") (unit 1)
         )
@@ -2750,7 +2750,7 @@
     (pin "1" (uuid 951e5446-24e8-4a87-8296-1f8c1732190c))
     (pin "2" (uuid 457af404-881b-48c1-8ffc-234cb47e4084))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "C709") (unit 1)
         )
@@ -2776,7 +2776,7 @@
     (pin "1" (uuid e0d8a35a-35c8-4e77-ad68-fda542f5e9d6))
     (pin "2" (uuid 300dbd06-3978-4963-ba13-ab64351653d4))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L706") (unit 1)
         )
@@ -2801,7 +2801,7 @@
     )
     (pin "1" (uuid 78baee27-5446-4ec2-ac2a-8dbd140f8820))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "#PWR0198") (unit 1)
         )
@@ -2827,7 +2827,7 @@
     (pin "1" (uuid a9efe888-6e56-45e2-b908-50d0bfd67b2d))
     (pin "2" (uuid bee8a66d-842a-447d-b568-afffecec2687))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L705") (unit 1)
         )
@@ -2853,7 +2853,7 @@
     (pin "1" (uuid 01ec0de0-45ad-4d9e-ae5a-215c7e88a034))
     (pin "2" (uuid 7923b621-fa96-4989-8cd8-6525d25ad628))
     (instances
-      (project "PacSat_Dev_RevD_231018"
+      (project "PacSat_Dev_RevD_240223"
         (path "/cc9f42d2-6985-41ac-acab-5ab7b01c5b38/b85b88c3-87c5-49e2-804e-0759552ace3d"
           (reference "L704") (unit 1)
         )
