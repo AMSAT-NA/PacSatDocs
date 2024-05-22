@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "amsat_ti")(type "Legacy")(uri "/media/NAS1/Public/Projects/KiCAD PCBs/Pacsat/reference/rt-ihu/v1.1/kicad_lib/symbol/amsat_ti.lib")(options "")(descr ""))
+)
