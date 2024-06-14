@@ -1,0 +1,14 @@
+
+Chip location  Top of board is with PC104 turned North - Up
+First AX50403 would be position 0 then 1,2,3
+
+24	N2HET1_3	AX5043_SEL1		U205-14		RX1_SEL      Position 2
+33	N2HET1_7	AX5043_SEL2		U305-1		RX2 Select   Position 1
+35	N2HET1_9	AX5043_SEL3		U405-14		RX3 SEL      Position 0
+36	N2HET1_4	AX5042_SEL4		U505-14		RX4 SEL      Position 3
+
+5	GIOA_1	AX5043_IRQ_RX1		U205-19		RX1_IRQ              Position 2
+126	GOIB_0	AX5043_IRQ_RX2		U305-19		RX2 IRQ`             Position 1
+22	GIOA_7	AX5043_IRQ_RX3		U405-19		RX3_IRQ              Position 0
+14	GIOA_5	AX5043_IRQ_RX4		U505-19		RX4_IRQ              Position 3
+

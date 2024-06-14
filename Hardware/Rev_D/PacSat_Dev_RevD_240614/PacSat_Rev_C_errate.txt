@@ -1,0 +1,42 @@
+
+JTAG connector make sure all ten pins are available including the 3.3 Volt pin.
+
+Connect the enable line on U86 the 5V regulator to Vsys. Vsys can not exceed 6.4V for this regulator. All this will be different with another regulator though. A new regulator should work with input to 8 Volt which is expected battery voltage and must not overshoot above limits of supplied circuit components.
+
+Remove R88 in 5V regulator circuit but again goes away with new regulator.
+
+The inductor L86, placed next to 5V regulator has a voltage drop of about 0.15 volts. When new regulator is selected this regulator will still be present so the supply voltage should be setup to accomidate this small voltage drop and ay need tuning (resistor changes) after new board is tested.
+
+Remove U87 3.3V regulator, replace this regulator with a more stable regulator UA78M33CKCSE3 may be used on other AMSAT projects. Regulator must not overshoot at startup above the maximum voltage on the TMS570  and memory chips or there will need to a stratup delay circuit to allow regulator to settle before applying power to TMS570. TMS570 is sensitive to overshoot in voltage and you can destroy input gates. Goal is to have an efficient regulator for redesign circuit.
+Rev C regulator was not wired correctly and needed changes. I finally replaced it with a liniear regulator for development.
+
+U206 schematic shows changes needed to obtain proper biasing of Opto device. This device is designed to provide a negative bias voltage which does not need much current and a charge pump devioce can add noise to the circuit.
+The idea was to share the current bias to the 1.2 volt regulator rather than operating it directly off the 5V supply.
+
+Schematic shows bias needed for Q601 to obtain negative 0.68 volts.
+
+Remove U91 because device is not rated for low voltage of 1.2V operation. Jumper power from pin 5 to pin 1 on Rev C.
+
+Disable the watchdog timers with proper jumpers for all developent testing until watchdogs are ready to be included. Make sure logic for watchdog timers matches properly. This was an issue in Rev C.
+
+Cut line feeding Pin 31 of TMS570 which goes to 5V enable on Regulatr. This was in RTIHU design and found we can not do this. Without 5V TMS570 is not working in this design. 
+
+Correct addressing for Temperature sensor U30. In Rev C Cut GND connection to Pin 7. Place new Temp sensor and short Pin 8 and Pin 7. In Rev D the A0 line will be connected to SDA and A0 on U29 will be connected to SCL. This is a I2C device and ititially they were both wired to same address in Rev C. There are two sensors.
+
+Connect oneside of FR702 to +5V. In Rev D make sure power planes are connected in this area. The 5V power plane was not connectoed in Rev C.
+
+The power control for the 3.3 volt regulator feeding AX5043s was moved on Rev C. Need to coordnate this with device used to monitor curreent and control power the is the AX5043 PWR CTL signal. Evaluate if this is really needed.
+
+Power control line was moved for the 5VV PA power which is signal PA PWR CTL. This is need to turn PA on and off because it will draw a lot of power and when not transmitting better to turn it iff. Make sure logic is working in correct direction. Devices we used were offered with pull up or pull down options and wrong part numbers were placed on Rev C board.
+
+Add a line to Pin 116 on CPU (nRST) or R3 and connect this to one side of of a SPST switch for Reset. Coennect  the other side of switch to GND. Reset is usful for development work. SPST is off PCB just good to have connection points.
+
+Connecte the I2C CLK and Data lines to PC104 on Rev D.
+
+I was trying to reduce the nuber of buses on the PCB so I dropped CAN bus. CAN bus was originally designed for Automive us and is really not needed here but others feel it is and there is a lot of sofware already in place for this. May need to add two buffer drivers to support can bus as well. Will need to move on signal which is on a can bus pin of TMS570 to allow allow all this to work.
+
+Remove pullups resistors on SPI bus but leave pads on PCB in case they are needed. Add a 20K Pullup to the MRAM SPI MISO to 3.3V.
+
+Put 91 nH inductor on RX AX5043 chips Pins 9 and 10. 
+
+Add a 20K pullup on Security chip 1 wire data line.
