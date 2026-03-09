@@ -77,7 +77,7 @@ def processStructure(type, file):
                 structure += processColumns(fields, columns)
 
 if len(sys.argv) < 5:
-    print ('Usage: genSpacecraft <FOXID> <rt|max|min|rad|exp|wod|can|canwod> <fileName.csv> <include sections> <ifdef keywords>')
+    print ('Usage: genSpacecraft <FOXID> <rt|max|min|err|exp|wod|can|canwod> <fileName.csv> <include sections> <ifdef keywords>')
     print ('Generate the spacecraft files needed for FoxTelem from the csv file that defines the downlink specification')
     sys.exit(1)
 
