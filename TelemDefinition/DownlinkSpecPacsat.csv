@@ -18,22 +18,24 @@ END,,,,,,,,Total length,80,10,5,2.5,,,,
 //,,,,,,,,,,,,,,,,
 "Structure: commonRtMinmaxWodPayload_t,file:commonDownlink.h",,,,,,,,,,,,,,,,
 //,Field Name,Code Name,Size (Bits),Type,C Type,Conversion,Label,Description,Bit Offset,Byte Offset,Short Offset,Long offset,Module,Module_num,Module_Line,Line_Type
-,Available,FSAvailable,32,Unsigned,,11,Bytes,Space left in the file system,0,0,0,0,File Storage,4,1,0
+,Available,FSAvailable,32,Unsigned,,11,KB,Space left in the file system,0,0,0,0,File Storage,4,1,0
 ,Total Files,FSTotalFiles,16,Unsigned,,12,-,Total files in the file system,32,4,2,1,File Storage,4,2,0
 ,Bytes Queued,UploadQueueBytes,16,Unsigned,,2,-,Bytes reserved by the upload queue,48,6,3,1.5,File Storage,4,3,0
 ,Files Queued,UploadQueueFiles,8,Unsigned,,2,-,Files in the tmp folder queued to upload,64,8,4,2,File Storage,4,4,0
 ,RF Power,TXPower,8,uint8_t,,4,mW,TX RF Power,72,9,4.5,2.25,Radio,2,2,0
-,Mode,TXPwrMode,8,uint8_t,,5,-,TX Power Mode,80,10,5,2.5,Radio,2,1,0
-,Mode,RX0PwrMode,8,Unsigned,,5,-,RX0 Power Mode,88,11,5.5,2.75,Radio,2,3,0
-,Mode,RX1PwrMode,8,Unsigned,,5,-,RX1Power Mode,96,12,6,3,Radio,2,4,0
-,Mode,RX2PwrMode,8,Unsigned,,5,-,RX2 Power Mode,104,13,6.5,3.25,Radio,2,5,0
-,Mode,RX3PwrMode,8,Unsigned,,5,-,RX3 Power Mode,112,14,7,3.5,Radio,2,6,0
-,RSSI,RX0RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 0,120,15,7.5,3.75,Radio,2,7,0
-,RSSI,RX1RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 1,128,16,8,4,Radio,2,8,0
-,RSSI,RX2RSSI,8,Unsigned,,6,dBm,RSSI for receiver 2,136,17,8.5,4.25,Radio,2,9,0
-,RSSI,RX3RSSI,8,Unsigned,,6,dBm,RSSI for receiver 3,144,18,9,4.5,Radio,2,10,0
+,Tx Mode,TXPwrMode,8,uint8_t,,5,-,TX Power Mode,80,10,5,2.5,Radio,2,1,0
+,Rx0 Mode,RX0PwrMode,8,Unsigned,,5,-,RX0 Power Mode,88,11,5.5,2.75,Radio,2,3,0
+,Rx1 Mode,RX1PwrMode,8,Unsigned,,5,-,RX1Power Mode,96,12,6,3,Radio,2,4,0
+,Rx2 Mode,RX2PwrMode,8,Unsigned,,5,-,RX2 Power Mode,104,13,6.5,3.25,Radio,2,5,0
+,Rx3 Mode,RX3PwrMode,8,Unsigned,,5,-,RX3 Power Mode,112,14,7,3.5,Radio,2,6,0
+,Rx0 RSSI,RX0RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 0,120,15,7.5,3.75,Radio,2,7,0
+,Rx1 RSSI,RX1RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 1,128,16,8,4,Radio,2,8,0
+,Rx2 RSSI,RX2RSSI,8,Unsigned,,6,dBm,RSSI for receiver 2,136,17,8.5,4.25,Radio,2,9,0
+,Rx3 RSSI,RX3RSSI,8,Unsigned,,6,dBm,RSSI for receiver 3,144,18,9,4.5,Radio,2,10,0
 ,Temperature,IHUTemp,8,Unsigned,,9,C,Computer temperature,152,19,9.5,4.75,Computer,3,1,0
-END,,,,,,,,Totals:,160,20,10,5,,,,
+,PA Temp,PATemp,8,Unsigned,,9,C,Power Amplifier Temperature,160,20,10,5,Radio,2,11,0
+,Power Temp,PowerTemp,8,Unsigned,,9,C,Power Supply Temperature,168,21,10.5,5.25,Computer,3,5,0
+END,,,,,,,,Totals:,176,22,11,5.5,,,,
 ,,,,,,,,,,,,,,,,
 //,"commonPayload2 is common to realtime,  hi/low, and WOD,  but it is not compared for hi/low.  It is fetched fresh.",,,,,,,,,,,,,,,
 "Structure: commonRtWodPayload_t,file:common2Downlink.h",,,,,,,,,,,,,,,,
@@ -42,10 +44,12 @@ ifdef LEGACY_IHU,,,,,,,,,,,,,,,,
 ,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,1,0.125,0.0625,0.03125,Computer,3,3,0
 ,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,2,0.25,0.125,0.0625,File Storage,4,5,0
 ,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,3,0.375,0.1875,0.09375,File Storage,4,6,0
-,Pad155,pad202,4,Unsigned,,0,-,Pad,4,0.5,0.25,0.125,NONE,0,0,0
+,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,4,0.5,0.25,0.125,File Storage,4,7,0
+,Pad155,pad202,3,Unsigned,,0,-,Pad,5,0.625,0.3125,0.15625,NONE,0,0,0
 endif,,,,,,,,,,,,,,,,
 ifdef RTIHU,,,,,,,,,,,,,,,,
-,Pad155,pad202,4,Unsigned,,0,-,Pad,0,0,0,0,NONE,0,0,0
+,Pad155,pad202,3,Unsigned,,0,-,Pad,0,0,0,0,NONE,0,0,0
+,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,3,0.375,0.1875,0.09375,File Storage,4,7,0
 ,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,4,0.5,0.25,0.125,File Storage,4,6,0
 ,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,5,0.625,0.3125,0.15625,File Storage,4,5,0
 ,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,6,0.75,0.375,0.1875,Computer,3,3,0
@@ -60,11 +64,11 @@ endif,,,,,,,,,,,,,,,,
 ,PB Status Period,PbStatusPeriod,16,Unsigned,,2,s,The period between Pacsat Broadcast Status packets,96,12,6,3,File Storage,4,7,0
 ,PB Timeout,PbTimeout,16,Unsigned,,2,s,The maximum time a client can be on the PB,112,14,7,3.5,File Storage,4,8,0
 ,Uplink Status Period,UplinkStatusPeriod,16,Unsigned,,2,s,The period between uplink status packets,128,16,8,4,File Storage,4,9,0
-,Min/Max Resets,TLMresets,8,Unsigned,,0,-,Number of times command stations reset stored telemetry,144,18,9,4.5,Telem & Control,1,7,0
-,Commands,swCmds,8,Unsigned,,0,-,Command Data,152,19,9.5,4.75,Telem & Control,1,8,0
-,SW Cmd Cnt,swCmdCnt,8,uint8_t,,0,-,Number of software commands since last reset,160,20,10,5,Telem & Control,1,9,0
-,MRAM Status,MRAMstatus,8,uint8_t,,0,-,TBD,168,21,10.5,5.25,Computer,3,4,0
-END,,,,,,,,Total Length,176,22,11,5.5,,,,
+,SW Cmd Cnt,swCmdCnt,8,uint8_t,,0,-,Number of software commands since last reset,144,18,9,4.5,Telem & Control,1,9,0
+,Min/Max Resets,TLMresets,8,Unsigned,,0,-,Number of times command stations reset stored telemetry,152,19,9.5,4.75,Telem & Control,1,7,0
+,Cmd Ring,swCmds,32,Unsigned,,0,-,Command Ring showing last 4 commands,160,20,10,5,Telem & Control,1,8,0
+,MRAM Status,MRAMstatus,8,uint8_t,,0,-,Status of the MRAM,192,24,12,6,Computer,3,4,0
+END,,,,,,,,Total Length,200,25,12.5,6.25,,,,
 ,,,,,,,,,,,,,,,,
 //,,,,,,,,,,,,,,,,
 "Structure: realtimeSpecific_t, file:realtimeDownlink.h",,,,,,,,,,,,,,,,
