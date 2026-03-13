@@ -4,7 +4,7 @@
 2,err,protocolVersion,8,-,0,NONE,0,0,0,Downlink Spec Version,LS4Bits = minor & MS3bits=major
 3,err,versionMajor,8,-,0,NONE,0,0,0,Software Major Version,None
 4,err,versionMinor,8,-,0,NONE,0,0,0,Sofwtare Minor Version,None
-5,err,spacecraftMode,8,-,0,NONE,0,0,0,Spacecraft Mode,The spacecraft mode e.g. SAFE MODE
+5,err,spacecraftMode,8,-,0,Telem & Control,1,1,0,Spacecraft Mode,The spacecraft mode e.g. SAFE MODE
 6,err,wdReports,9,-,2,Computer,1,1,0,Watchdog Tasks,x
 7,err,errorCode,5,-,2,Computer,1,2,0,Cause of reset,x
 8,err,taskNumber,4,-,2,Computer,1,3,0,Task at reset,Task executing at reset
