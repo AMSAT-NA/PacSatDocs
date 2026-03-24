@@ -18,62 +18,67 @@ END,,,,,,,,Total length,80,10,5,2.5,,,,
 //,,,,,,,,,,,,,,,,
 "Structure: commonRtMinmaxWodPayload_t,file:commonDownlink.h",,,,,,,,,,,,,,,,
 //,Field Name,Code Name,Size (Bits),Type,C Type,Conversion,Label,Description,Bit Offset,Byte Offset,Short Offset,Long offset,Module,Module_num,Module_Line,Line_Type
-,Available,FSAvailable,32,Unsigned,,11,KB,Space left in the file system,0,0,0,0,File Storage,4,1,0
-,Total Files,FSTotalFiles,16,Unsigned,,12,-,Total files in the file system,32,4,2,1,File Storage,4,2,0
-,Bytes Queued,UploadQueueBytes,16,Unsigned,,2,-,Bytes reserved by the upload queue,48,6,3,1.5,File Storage,4,3,0
-,Files Queued,UploadQueueFiles,8,Unsigned,,2,-,Files in the tmp folder queued to upload,64,8,4,2,File Storage,4,4,0
-,RF Power,TXPower,8,uint8_t,,4,mW,TX RF Power,72,9,4.5,2.25,Radio,2,2,0
-,Tx Mode,TXPwrMode,8,uint8_t,,5,-,TX Power Mode,80,10,5,2.5,Radio,2,1,0
-,Rx0 Mode,RX0PwrMode,8,Unsigned,,5,-,RX0 Power Mode,88,11,5.5,2.75,Radio,2,3,0
-,Rx1 Mode,RX1PwrMode,8,Unsigned,,5,-,RX1Power Mode,96,12,6,3,Radio,2,4,0
-,Rx2 Mode,RX2PwrMode,8,Unsigned,,5,-,RX2 Power Mode,104,13,6.5,3.25,Radio,2,5,0
-,Rx3 Mode,RX3PwrMode,8,Unsigned,,5,-,RX3 Power Mode,112,14,7,3.5,Radio,2,6,0
-,Rx0 RSSI,RX0RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 0,120,15,7.5,3.75,Radio,2,7,0
-,Rx1 RSSI,RX1RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 1,128,16,8,4,Radio,2,8,0
-,Rx2 RSSI,RX2RSSI,8,Unsigned,,6,dBm,RSSI for receiver 2,136,17,8.5,4.25,Radio,2,9,0
-,Rx3 RSSI,RX3RSSI,8,Unsigned,,6,dBm,RSSI for receiver 3,144,18,9,4.5,Radio,2,10,0
-,Temperature,IHUTemp,8,Unsigned,,9,C,Computer temperature,152,19,9.5,4.75,Computer,3,1,0
-,PA Temp,PATemp,8,Unsigned,,9,C,Power Amplifier Temperature,160,20,10,5,Radio,2,11,0
-,Power Temp,PowerTemp,8,Unsigned,,9,C,Power Supply Temperature,168,21,10.5,5.25,Computer,3,5,0
-END,,,,,,,,Totals:,176,22,11,5.5,,,,
+,Available,FSAvailable,32,Unsigned,,11,KB,Space left in the file system,0,0,0,0,File Storage,3,1,0
+,Total Files,FSTotalFiles,16,Unsigned,,12,-,Total files in the file system,32,4,2,1,File Storage,3,2,0
+,Bytes Queued,UploadQueueBytes,8,Unsigned,,2,-,Bytes reserved by the upload queue,48,6,3,1.5,File Storage,3,3,0
+,Files Queued,UploadQueueFiles,8,Unsigned,,2,-,Files in the tmp folder queued to upload,56,7,3.5,1.75,File Storage,3,4,0
+,RF Power,TXPower,8,uint8_t,,4,mW,TX RF Power,64,8,4,2,Transmitter,4,3,0
+,Pwr State,TXPwrMode,8,uint8_t,,5,-,TX Power Mode,72,9,4.5,2.25,Transmitter,4,1,0
+,Mode,TxModMode,8,uint8_t,,13,-,The modulation mode of the TX,80,10,5,2.5,Transmitter,4,2,0
+,Pwr State,RX0PwrMode,8,Unsigned,,5,-,RX0 Power Mode,88,11,5.5,2.75,Receiver 1,5,1,0
+,Pwr State,RX1PwrMode,8,Unsigned,,5,-,RX1Power Mode,96,12,6,3,Receiver 2,6,1,0
+,Pwr State,RX2PwrMode,8,Unsigned,,5,-,RX2 Power Mode,104,13,6.5,3.25,Receiver 3,7,1,0
+,Pwr State,RX3PwrMode,8,Unsigned,,5,-,RX3 Power Mode,112,14,7,3.5,Receiver 4,8,1,0
+,Mode,RX0ModMode,8,Unsigned,,13,-,RX0 Modulation,120,15,7.5,3.75,Receiver 1,5,2,0
+,Mode,RX1ModMode,8,Unsigned,,13,-,RX1 Modulation,128,16,8,4,Receiver 2,6,2,0
+,Mode,RX2ModMode,8,Unsigned,,13,-,RX2 Modulation,136,17,8.5,4.25,Receiver 3,7,2,0
+,Mode,RX3ModMode,8,Unsigned,,13,-,RX3 Modulation,144,18,9,4.5,Receiver 4,8,2,0
+,RSSI,RX0RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 0,152,19,9.5,4.75,Receiver 1,5,3,0
+,RSSI,RX1RSSI,8,Unsigned,,6,dBm,RSSI for Receiver 1,160,20,10,5,Receiver 2,6,3,0
+,RSSI,RX2RSSI,8,Unsigned,,6,dBm,RSSI for receiver 2,168,21,10.5,5.25,Receiver 3,7,3,0
+,RSSI,RX3RSSI,8,Unsigned,,6,dBm,RSSI for receiver 3,176,22,11,5.5,Receiver 4,8,3,0
+,CPU Temp,IHUTemp,8,Unsigned,,9,C,Computer temperature,184,23,11.5,5.75,Computer,2,1,0
+,PA Temp,PATemp,8,Unsigned,,9,C,Power Amplifier Temperature,192,24,12,6,Transmitter,4,4,0
+,Power Temp,PowerTemp,8,Unsigned,,9,C,Power Supply Temperature,200,25,12.5,6.25,Computer,2,5,0
+END,,,,,,,,Totals:,208,26,13,6.5,,,,
 ,,,,,,,,,,,,,,,,
 //,"commonPayload2 is common to realtime,  hi/low, and WOD,  but it is not compared for hi/low.  It is fetched fresh.",,,,,,,,,,,,,,,
 "Structure: commonRtWodPayload_t,file:common2Downlink.h",,,,,,,,,,,,,,,,
 ifdef LEGACY_IHU,,,,,,,,,,,,,,,,
-,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,0,0,0,0,Computer,3,2,0
-,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,1,0.125,0.0625,0.03125,Computer,3,3,0
-,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,2,0.25,0.125,0.0625,File Storage,4,5,0
-,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,3,0.375,0.1875,0.09375,File Storage,4,6,0
-,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,4,0.5,0.25,0.125,File Storage,4,7,0
+,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,0,0,0,0,Computer,2,2,0
+,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,1,0.125,0.0625,0.03125,Computer,2,3,0
+,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,2,0.25,0.125,0.0625,File Storage,3,5,0
+,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,3,0.375,0.1875,0.09375,File Storage,3,6,0
+,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,4,0.5,0.25,0.125,File Storage,3,7,0
 ,Pad155,pad202,3,Unsigned,,0,-,Pad,5,0.625,0.3125,0.15625,NONE,0,0,0
 endif,,,,,,,,,,,,,,,,
 ifdef RTIHU,,,,,,,,,,,,,,,,
 ,Pad155,pad202,3,Unsigned,,0,-,Pad,0,0,0,0,NONE,0,0,0
-,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,3,0.375,0.1875,0.09375,File Storage,4,7,0
-,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,4,0.5,0.25,0.125,File Storage,4,6,0
-,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,5,0.625,0.3125,0.15625,File Storage,4,5,0
-,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,6,0.75,0.375,0.1875,Computer,3,3,0
-,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,7,0.875,0.4375,0.21875,Computer,3,2,0
+,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,3,0.375,0.1875,0.09375,File Storage,3,7,0
+,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,4,0.5,0.25,0.125,File Storage,3,6,0
+,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,5,0.625,0.3125,0.15625,File Storage,3,5,0
+,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,6,0.75,0.375,0.1875,Computer,2,3,0
+,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,7,0.875,0.4375,0.21875,Computer,2,2,0
 endif,,,,,,,,,,,,,,,,
 ,Log Level,LogLevel,8,Unsigned,,2,-,The current logging level,8,1,0.5,0.25,Telem & Control,1,7,0
-,Time Period,TimePeriod,16,Unsigned,,2,s,The period between time packets,16,2,1,0.5,Telem & Control,1,2,0
-,Telem Period,TelemPeriod,16,Unsigned,,2,s,The period between telemetry packets,32,4,2,1,Telem & Control,1,3,0
-,WOD Period,WodPeriod,16,Unsigned,,2,s,The time between WOD saves,48,6,3,1.5,Telem & Control,1,4,0
-,Max WOD Size,MaxWodFileSize,16,Unsigned,,2,Bytes,The maximum size of a WOD file before it is added to the directory,64,8,4,2,Telem & Control,1,5,0
-,Max EXP Size,MaxExpFileSize,16,Unsigned,,2,Bytes,The maximum size of a experiment file before it is added to the directory,80,10,5,2.5,Telem & Control,1,6,0
-,PB Status Period,PbStatusPeriod,16,Unsigned,,2,s,The period between Pacsat Broadcast Status packets,96,12,6,3,File Storage,4,8,0
-,PB Timeout,PbTimeout,16,Unsigned,,2,s,The maximum time a client can be on the PB,112,14,7,3.5,File Storage,4,9,0
-,Uplink Status Period,UplinkStatusPeriod,16,Unsigned,,2,s,The period between uplink status packets,128,16,8,4,File Storage,4,10,0
-,SW Cmd Cnt,swCmdCnt,8,uint8_t,,0,-,Number of software commands since last reset,144,18,9,4.5,Telem & Control,1,10,0
-,Min/Max Resets,TLMresets,8,Unsigned,,0,-,Number of times command stations reset stored telemetry,152,19,9.5,4.75,Telem & Control,1,8,0
-,Cmd Ring,swCmds,32,Unsigned,,0,-,Command Ring showing last 4 commands,160,20,10,5,Telem & Control,1,9,0
-,MRAM Status,MRAMstatus,8,uint8_t,,0,-,Status of the MRAM,192,24,12,6,Computer,3,4,0
-END,,,,,,,,Total Length,200,25,12.5,6.25,,,,
+,Time Period,TimePeriod,8,Unsigned,,7,min,The period between time packets,16,2,1,0.5,Telem & Control,1,2,0
+,Telem Period,TelemPeriod,8,Unsigned,,7,min,The period between telemetry packets,24,3,1.5,0.75,Telem & Control,1,3,0
+,WOD Period,WodPeriod,8,Unsigned,,7,min,The time between WOD saves,32,4,2,1,Telem & Control,1,4,0
+,Max WOD Size,MaxWodFileSize,8,Unsigned,,8,KB,The maximum size of a WOD file before it is added to the directory,40,5,2.5,1.25,Telem & Control,1,5,0
+,Max EXP Size,MaxExpFileSize,8,Unsigned,,8,KB,The maximum size of a experiment file before it is added to the directory,48,6,3,1.5,Telem & Control,1,6,0
+,PB Status Period,PbStatusPeriod,8,Unsigned,,7,min,The period between Pacsat Broadcast Status packets,56,7,3.5,1.75,File Storage,3,8,0
+,PB Timeout,PbTimeout,8,Unsigned,,7,min,The maximum time a client can be on the PB,64,8,4,2,File Storage,3,9,0
+,Uplink Status Period,UplinkStatusPeriod,8,Unsigned,,7,min,The period between uplink status packets,72,9,4.5,2.25,File Storage,3,10,0
+,SW Cmd Cnt,swCmdCnt,8,uint8_t,,2,-,Number of software commands since last reset,80,10,5,2.5,Telem & Control,1,10,0
+,Min/Max Resets,TLMresets,8,Unsigned,,2,-,Number of times command stations reset stored telemetry,88,11,5.5,2.75,Telem & Control,1,8,0
+,Cmd Ring,swCmds,32,Unsigned,,0,-,Command Ring showing last 4 commands,96,12,6,3,Telem & Control,1,9,0
+,MRAM Status,MRAMstatus,8,uint8_t,,0,-,Status of the MRAM,128,16,8,4,Computer,2,4,0
+END,,,,,,,,Total Length,136,17,8.5,4.25,,,,
 ,,,,,,,,,,,,,,,,
 //,,,,,,,,,,,,,,,,
 "Structure: realtimeSpecific_t, file:realtimeDownlink.h",,,,,,,,,,,,,,,,
-,Pad,Pad5,32,uint8_t,,0,-,Pad,0,0,0,0,NONE,0,0,0
-END,,,,,,,,Total Length,32,4,2,1,,,,
+,Pad,Pad5,8,uint8_t,,0,-,Pad,0,0,0,0,NONE,0,0,0
+END,,,,,,,,Total Length,8,1,0.5,0.25,,,,
 ,,,,,,,,,,,,,,,,
 "Structure: maxSpecific_t, file: maxDownlink.h",,,,,,,,,,,,,,,,
 ,Max Last Chg Secs,maxTimestampUptime,32,unsigned,,0,s,Timestamp Resets,0,0,0,0,NONE,0,0,0
@@ -95,56 +100,56 @@ END,,,,,,,,Total Length,128,16,8,4,,,,
 ,,,,,,,,,,,,,,,,
 //,,,,,,,,,,,,,,,,
 "Structure:wodSpecific_t,file:wodSpecificDownlink.h",,,,,,,,,,,,,,,,
-,Uptime,WODTimestampUptime,32,Unsigned,,0,s,Time Whole Orbit Data was collected,0,0,0,0,NONE,0,0,0
-,Data Capture Time,WODTimestampReset,16,Unsigned,,0,-,Time Whole Orbit Data was collected,32,4,2,1,NONE,0,0,0
-,CRC Error,WodCRCError,8,Unsigned,,0,-,CRC Error for the WOD Payload,48,6,3,1.5,NONE,0,0,0
+,Uptime,WODTimestampUptime,32,Unsigned,,0,s,Time Whole Orbit Data was collected,0,0,0,0,Telem & Control,1,10,0
+,Data Capture Time,WODTimestampReset,16,Unsigned,,0,-,Time Whole Orbit Data was collected,32,4,2,1,Telem & Control,1,11,0
+,CRC Error,WodCRCError,8,Unsigned,,0,-,CRC Error for the WOD Payload,48,6,3,1.5,Telem & Control,1,12,0
 END,,,,,,,,Totals:,56,7,3.5,1.75,,,,
 ,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,
 "Structure:rt1Errors_t,file:rt1ErrorsDownlink.h",,,,,,,,,,,,,Module,,,
 //,Field Name,Code Name,Size (Bits),Type,C Type,Conversion,Label,Description,Bit Offset,Byte Offset,Short Offset,Long offset,,Module_num,Module_Line,Line_Type
-,Watchdog Tasks,wdReports,9,Unsigned,,2,-,x,0,0,0,0,Computer,1,1,0
-,Cause of reset,errorCode,5,Unsigned,,2,-,x,9,1.125,0.5625,0.28125,Computer,1,2,0
-,Task at reset,taskNumber,4,Unsigned,,2,-,Task executing at reset,14,1.75,0.875,0.4375,Computer,1,3,0
-,Previous task,previousTask,4,Unsigned,,2,-,Previous task before reset,18,2.25,1.125,0.5625,Computer,1,4,0
-,Resets in a row,earlyResetCount,3,Unsigned,,2,-,Resets in a row that have been too soon,22,2.75,1.375,0.6875,Computer,1,5,0
-,Early reset,wasStillEarlyInBoot,1,Unsigned,,2,-,Was this reset still early in boot,25,3.125,1.5625,0.78125,Computer,1,6,0
-,Data Valid,valid,1,Unsigned,,1,-,x,26,3.25,1.625,0.8125,Computer,1,7,0
+,Watchdog Tasks,wdReports,9,Unsigned,,2,-,x,0,0,0,0,Computer,2,1,0
+,Cause of reset,errorCode,5,Unsigned,,2,-,x,9,1.125,0.5625,0.28125,Computer,2,2,0
+,Task at reset,taskNumber,4,Unsigned,,2,-,Task executing at reset,14,1.75,0.875,0.4375,Computer,2,3,0
+,Previous task,previousTask,4,Unsigned,,2,-,Previous task before reset,18,2.25,1.125,0.5625,Computer,2,4,0
+,Resets in a row,earlyResetCount,3,Unsigned,,2,-,Resets in a row that have been too soon,22,2.75,1.375,0.6875,Computer,2,5,0
+,Early reset,wasStillEarlyInBoot,1,Unsigned,,2,-,Was this reset still early in boot,25,3.125,1.5625,0.78125,Computer,2,6,0
+,Data Valid,valid,1,Unsigned,,1,-,x,26,3.25,1.625,0.8125,Computer,2,7,0
 ,pad to 32 bits,pad316,5,Unsigned,,0,-,x,27,3.375,1.6875,0.84375,NONE,0,0,0
-,Error Data,errorData,32,Unsigned,,2,-,x,32,4,2,1,Computer,1,8,0
-,Primary SRAM Corrected Addr 1,RAMCorAddr1,32,unsigned,,0,-,x,64,8,4,2,Memory,2,1,0
-,Primary SRAM Corrected Addr 2,RAMCorAddr2,32,Unsigned,,0,-,x,96,12,6,3,Memory,2,2,0
-,Primary Flash Corrected Addr 1,ROMCorAddr1,32,unsigned,,0,-,x,128,16,8,4,Memory,2,3,0
-,Primary Flash Corrected Addr 2,ROMCorAddr2,32,Unsigned,,0,-,x,160,20,10,5,Memory,2,4,0
-,Cmd CRC Fails,DCTCmdFailCRCCnt,8,Unsigned,,0,-,Count of commands failing CRC check,192,24,12,6,Commanding,4,1,0
-,Cmd Time Fails,DCTCmdFailTimeCnt,8,Unsigned,,0,-,Count of commands failing the time check,200,25,12.5,6.25,Commanding,4,2,0
-,Cmd Auth Fails,DCTCmdFailAuthenticateCnt,8,Unsigned,,0,-,Count of commands failing authentication,208,26,13,6.5,Commanding,4,3,0
-,Cmd Fail count,DCTCmdFailCommandCnt,8,Unsigned,,0,-,Count of commands failing ,216,27,13.5,6.75,Commanding,4,4,0
-,Cmds wrong NS,DCTCmdFailNamespaceCnt,8,Unsigned,,0,-,Count of commands with wrong namespace,224,28,14,7,Commanding,4,5,0
-,I2C1 errors,I2C1ErrorCnt,8,Unsigned,,0,-,I2C1 errors,232,29,14.5,7.25,Buses,3,1,0
-,I2C2 errors,I2C2ErrorCnt,8,Unsigned,,0,-,I2C2 errors,240,30,15,7.5,Buses,3,2,0
-,I2C1 resets,I2C1ResetCnt,8,Unsigned,,0,-,I2C1 resets,248,31,15.5,7.75,Buses,3,3,0
-,I2C2 resets,I2C2ResetCnt,8,Unsigned,,0,-,I2C2 resets,256,32,16,8,Buses,3,4,0
-,I2C1 retires,I2C1RetryCnt,8,Unsigned,,0,-,I2C1 retires,264,33,16.5,8.25,Buses,3,5,0
-,I2C2 retries,I2C2RetryCnt,8,Unsigned,,0,-,I2C2 retries,272,34,17,8.5,Buses,3,6,0
-,SPI retrries,SPIRetryCnt,8,Unsigned,,0,-,SPI retrries,280,35,17.5,8.75,Buses,3,7,0
-,MRAM fails,MramCRCCnt,8,Unsigned,,0,-,MRAM fails,288,36,18,9,Memory,2,5,0
-,MRAM Read errs,MramRdErrorCnt,8,Unsigned,,0,-,MRAM Read errs,296,37,18.5,9.25,Memory,2,6,0
-,MRAM Write errs,MramWtErrorCnt,8,Unsigned,,0,-,MRAM Write errs,304,38,19,9.5,Memory,2,7,0
-,RT1FlashCorrectable Count,FlashCorCnt,8,Unsigned,,0,-,RT1FlashCorrectable Count,312,39,19.5,9.75,Memory,2,8,0
-,RT1 Ram Even Bank Correctable Count,RamEvenCorCnt,8,Unsigned,,0,-,RT1 Ram Even Bank Correctable Count,320,40,20,10,Memory,2,9,0
-,RT1 Ram Odd Bank Correctable Count,RamOddCorCnt,8,Unsigned,,0,-,RT1 Ram Odd Bank Correctable Count,328,41,20.5,10.25,Memory,2,10,0
-,RT1PLLSlip,PLLSlipCnt,8,Unsigned,,0,-,RT1PLLSlip,336,42,21,10.5,Computer,1,9,0
-,RT1ClockMonitorFail,ClockMonitorFailCnt,8,Unsigned,,0,-,RT1ClockMonitorFail,344,43,21.5,10.75,Computer,1,10,0
-,RT1VIMRamParity,VIMRamParityCnt,8,Unsigned,,0,-,RT1VIMRamParity,352,44,22,11,Memory,2,11,0
-,RT1CAN1RamParity,CAN1RamParityCnt,8,Unsigned,,0,-,RT1CAN1RamParity,360,45,22.5,11.25,Memory,2,12,0
-,RT1CAN2RamParity,CAN2RamParityCnt,8,Unsigned,,0,-,RT1CAN2RamParity,368,46,23,11.5,Memory,2,13,0
-,RT1DCC1Error,DCC1ErrorCnt,8,Unsigned,,0,-,RT1DCC1Error,376,47,23.5,11.75,Memory,2,14,0
-,RT1DCC2Error,DCC2ErrorCnt,8,Unsigned,,0,-,RT1DCC2Error,384,48,24,12,Memory,2,15,0
-,RT1N2HET2RamParity,N2HET2RamParityCnt,8,Unsigned,,0,-,RT1N2HET2RamParity,392,49,24.5,12.25,Computer,1,11,0
-,RT1IOMMAccvio,IOMMAccvioCnt,8,Unsigned,,0,-,RT1IOMMAccvio,400,50,25,12.5,Computer,1,12,0
-,Non-fatal error count,nonFatalCnt,8,Unsigned,,0,-,Non-fatal error count,408,51,25.5,12.75,Computer,1,13,0
-,RTIHU1 Version Number,SWVersion,16,Unsigned,uint8_t,0,-,RTIHU1 Version Number,416,52,26,13,Computer,1,14,0
-,Dropped Pkts,TxDroppedPkts,8,Unsigned,,2,-,Dropped Pkts,432,54,27,13.5,Computer,1,15,0
+,Error Data,errorData,32,Unsigned,,2,-,x,32,4,2,1,Computer,2,8,0
+,Primary SRAM Corrected Addr 1,RAMCorAddr1,32,unsigned,,0,-,x,64,8,4,2,Memory,3,1,0
+,Primary SRAM Corrected Addr 2,RAMCorAddr2,32,Unsigned,,0,-,x,96,12,6,3,Memory,3,2,0
+,Primary Flash Corrected Addr 1,ROMCorAddr1,32,unsigned,,0,-,x,128,16,8,4,Memory,3,3,0
+,Primary Flash Corrected Addr 2,ROMCorAddr2,32,Unsigned,,0,-,x,160,20,10,5,Memory,3,4,0
+,Cmd CRC Fails,DCTCmdFailCRCCnt,8,Unsigned,,0,-,Count of commands failing CRC check,192,24,12,6,Commanding,5,1,0
+,Cmd Time Fails,DCTCmdFailTimeCnt,8,Unsigned,,0,-,Count of commands failing the time check,200,25,12.5,6.25,Commanding,5,2,0
+,Cmd Auth Fails,DCTCmdFailAuthenticateCnt,8,Unsigned,,0,-,Count of commands failing authentication,208,26,13,6.5,Commanding,5,3,0
+,Cmd Fail count,DCTCmdFailCommandCnt,8,Unsigned,,0,-,Count of commands failing ,216,27,13.5,6.75,Commanding,5,4,0
+,Cmds wrong NS,DCTCmdFailNamespaceCnt,8,Unsigned,,0,-,Count of commands with wrong namespace,224,28,14,7,Commanding,5,5,0
+,I2C1 errors,I2C1ErrorCnt,8,Unsigned,,0,-,I2C1 errors,232,29,14.5,7.25,Buses,4,1,0
+,I2C2 errors,I2C2ErrorCnt,8,Unsigned,,0,-,I2C2 errors,240,30,15,7.5,Buses,4,2,0
+,I2C1 resets,I2C1ResetCnt,8,Unsigned,,0,-,I2C1 resets,248,31,15.5,7.75,Buses,4,3,0
+,I2C2 resets,I2C2ResetCnt,8,Unsigned,,0,-,I2C2 resets,256,32,16,8,Buses,4,4,0
+,I2C1 retires,I2C1RetryCnt,8,Unsigned,,0,-,I2C1 retires,264,33,16.5,8.25,Buses,4,5,0
+,I2C2 retries,I2C2RetryCnt,8,Unsigned,,0,-,I2C2 retries,272,34,17,8.5,Buses,4,6,0
+,SPI retrries,SPIRetryCnt,8,Unsigned,,0,-,SPI retrries,280,35,17.5,8.75,Buses,4,7,0
+,MRAM fails,MramCRCCnt,8,Unsigned,,0,-,MRAM fails,288,36,18,9,Memory,3,5,0
+,MRAM Read errs,MramRdErrorCnt,8,Unsigned,,0,-,MRAM Read errs,296,37,18.5,9.25,Memory,3,6,0
+,MRAM Write errs,MramWtErrorCnt,8,Unsigned,,0,-,MRAM Write errs,304,38,19,9.5,Memory,3,7,0
+,RT1FlashCorrectable Count,FlashCorCnt,8,Unsigned,,0,-,RT1FlashCorrectable Count,312,39,19.5,9.75,Memory,3,8,0
+,RT1 Ram Even Bank Correctable Count,RamEvenCorCnt,8,Unsigned,,0,-,RT1 Ram Even Bank Correctable Count,320,40,20,10,Memory,3,9,0
+,RT1 Ram Odd Bank Correctable Count,RamOddCorCnt,8,Unsigned,,0,-,RT1 Ram Odd Bank Correctable Count,328,41,20.5,10.25,Memory,3,10,0
+,RT1PLLSlip,PLLSlipCnt,8,Unsigned,,0,-,RT1PLLSlip,336,42,21,10.5,Computer,2,9,0
+,RT1ClockMonitorFail,ClockMonitorFailCnt,8,Unsigned,,0,-,RT1ClockMonitorFail,344,43,21.5,10.75,Computer,2,10,0
+,RT1VIMRamParity,VIMRamParityCnt,8,Unsigned,,0,-,RT1VIMRamParity,352,44,22,11,Memory,3,11,0
+,RT1CAN1RamParity,CAN1RamParityCnt,8,Unsigned,,0,-,RT1CAN1RamParity,360,45,22.5,11.25,Memory,3,12,0
+,RT1CAN2RamParity,CAN2RamParityCnt,8,Unsigned,,0,-,RT1CAN2RamParity,368,46,23,11.5,Memory,3,13,0
+,RT1DCC1Error,DCC1ErrorCnt,8,Unsigned,,0,-,RT1DCC1Error,376,47,23.5,11.75,Memory,3,14,0
+,RT1DCC2Error,DCC2ErrorCnt,8,Unsigned,,0,-,RT1DCC2Error,384,48,24,12,Memory,3,15,0
+,RT1N2HET2RamParity,N2HET2RamParityCnt,8,Unsigned,,0,-,RT1N2HET2RamParity,392,49,24.5,12.25,Computer,2,11,0
+,RT1IOMMAccvio,IOMMAccvioCnt,8,Unsigned,,0,-,RT1IOMMAccvio,400,50,25,12.5,Computer,2,12,0
+,Non-fatal error count,nonFatalCnt,8,Unsigned,,0,-,Non-fatal error count,408,51,25.5,12.75,Computer,2,13,0
+,RTIHU1 Version Number,SWVersion,16,Unsigned,uint8_t,0,-,RTIHU1 Version Number,416,52,26,13,Computer,2,14,0
+,Dropped Pkts,TxDroppedPkts,8,Unsigned,,2,-,Dropped Pkts,432,54,27,13.5,Computer,2,15,0
 ,Fill to 32-bits,pad362,8,Unisgned,,0,-,x,440,55,27.5,13.75,NONE,0,0,0
 END,,,,,,,,,448,56,28,14,,,,
