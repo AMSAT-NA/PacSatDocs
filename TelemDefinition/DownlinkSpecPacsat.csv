@@ -40,26 +40,28 @@ END,,,,,,,,Total length,80,10,5,2.5,,,,
 ,CPU Temp,IHUTemp,8,Unsigned,,9,C,Computer temperature,184,23,11.5,5.75,Computer,2,1,0
 ,PA Temp,PATemp,8,Unsigned,,9,C,Power Amplifier Temperature,192,24,12,6,Radio,4,4,0
 ,Power Temp,PowerTemp,8,Unsigned,,9,C,Power Supply Temperature,200,25,12.5,6.25,Computer,2,8,0
-,3V3,VoltageVal3v3,16,Unsigned,,2,mV,Voltage of the 3V3 rail,208,26,13,6.5,Computer,2,9,0
-,5V,VoltageVal5v,16,Unsigned,,2,mV,Voltage of the 5V rail,224,28,14,7,Computer,2,10,0
-,1V2,VoltageVal1v2,16,Unsigned,,2,mV,Voltage of the 1V2 rail,240,30,15,7.5,Computer,2,11,0
-,Battery,VoltageValBattery,16,Unsigned,,2,mV,Voltage of the battery,256,32,16,8,Computer,2,12,0
+,3V3,VoltageVal3v3,16,Unsigned,,14,mV,Voltage of the 3V3 rail,208,26,13,6.5,Computer,2,9,0
+,5V,VoltageVal5v,16,Unsigned,,14,mV,Voltage of the 5V rail,224,28,14,7,Computer,2,10,0
+,1V2,VoltageVal1v2,16,Unsigned,,14,mV,Voltage of the 1V2 rail,240,30,15,7.5,Computer,2,11,0
+,Battery,VoltageValBattery,16,Unsigned,,14,mV,Voltage of the battery,256,32,16,8,Computer,2,12,0
 ,Filler,pad0,16,Unsigned,,0,-,Fill to 32 bits,208,26,13,6.5,NONE,0,0,0
 END,,,,,,,,Totals:,224,28,14,7,,,,
 ,,,,,,,,,,,,,,,,
 //,"commonPayload2 is common to realtime,  hi/low, and WOD,  but it is not compared for hi/low.  It is fetched fresh.",,,,,,,,,,,,,,,
 "Structure: commonRtWodPayload_t,file:common2Downlink.h",,,,,,,,,,,,,,,,
 ifdef LEGACY_IHU,,,,,,,,,,,,,,,,
-,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,0,0,0,0,Computer,2,2,0
-,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,1,0.125,0.0625,0.03125,Computer,2,3,0
-,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,2,0.25,0.125,0.0625,File Storage,3,5,0
-,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,3,0.375,0.1875,0.09375,File Storage,3,6,0
-,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,4,0.5,0.25,0.125,File Storage,3,7,0
-,Power 5V,PowerFlag5V,1,Unsigned,,1,-,5V Power is enabled,5,0.625,0.3125,0.15625,Computer,2,13,0
-,Power LNA,PowerFlagLNA,1,Unsigned,,1,-,LNA is power is enabled,6,0.75,0.375,0.1875,Radio,4,5,0
-,Power SSPA,PowerFlagSSPA,1,Unsigned,,1,-,SSPA Power is enabled,7,0.875,0.4375,0.21875,Radio,4,6,0
-,Power Radios,PowerFlagAx5043,1,Unsigned,,1,-,Radio Power is enabled,8,1,0.5,0.25,Radio,4,7,0
-,Pad155,pad202,7,Unsigned,,0,-,Pad,5,0.625,0.3125,0.15625,NONE,0,0,0
+,Power Radios,PowerFlagAx5043,1,Unsigned,,1,-,Radio Power is enabled,0,0,0,0,Radio,4,7,0
+,Pad155,pad202,7,Unsigned,,0,-,Pad,1,0.125,0.0625,0.03125,NONE,0,0,0
+,Auto Safe Allowed,AutoSafeAllowed,1,Unsigned,,1,-,Autosafe Allowed,8,1,0.5,0.25,Computer,2,2,0
+,Auto Safe,AutoSafeModeActive,1,Unsigned,,1,-,Autosafe Mode Active,9,1.125,0.5625,0.28125,Computer,2,3,0
+,PB Enabled,pbEnabled,1,Unsigned,,1,-,Pacsat Broadcast is available for use,10,1.25,0.625,0.3125,File Storage,3,5,0
+,Uplink Enabled,uplinkEnabled,1,Unsigned,,1,-,Pacsat file upload is available for use,11,1.375,0.6875,0.34375,File Storage,3,6,0
+,Digi Enabled,DigiEnabled,1,Unsigned,,1,-,Packet Digipeater is enabled,12,1.5,0.75,0.375,File Storage,3,7,0
+,Power 5V,PowerFlag5V,1,Unsigned,,1,-,5V Power is enabled,13,1.625,0.8125,0.40625,Computer,2,13,0
+,Power LNA,PowerFlagLNA,1,Unsigned,,1,-,LNA is power is enabled,14,1.75,0.875,0.4375,Radio,4,5,0
+,Power SSPA,PowerFlagSSPA,1,Unsigned,,1,-,SSPA Power is enabled,15,1.875,0.9375,0.46875,Radio,4,6,0
+,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,
 endif,,,,,,,,,,,,,,,,
 ifdef RTIHU,,,,,,,,,,,,,,,,
 ,Pad155,pad202,7,Unsigned,,0,-,Pad,0,0,0,0,NONE,0,0,0
