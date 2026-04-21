@@ -40,10 +40,10 @@ END,,,,,,,,Total length,80,10,5,2.5,,,,
 ,CPU Temp,IHUTemp,8,Unsigned,,9,C,Computer temperature,184,23,11.5,5.75,Computer,2,1,0
 ,PA Temp,PATemp,8,Unsigned,,9,C,Power Amplifier Temperature,192,24,12,6,Radio,4,4,0
 ,Power Temp,PowerTemp,8,Unsigned,,9,C,Power Supply Temperature,200,25,12.5,6.25,Computer,2,8,0
-,3V3,VoltageVal3v3,16,Unsigned,,1,V,Voltage of the 3V3 rail,208,26,13,6.5,Computer,2,9,0
-,5V,VoltageVal5v,16,Unsigned,,1,V,Voltage of the 5V rail,224,28,14,7,Computer,2,10,0
-,1V2,VoltageVal1v2,16,Unsigned,,1,V,Voltage of the 1V2 rail,240,30,15,7.5,Computer,2,11,0
-,Battery,VoltageValBattery,16,Unsigned,,1,V,Voltage of the battery,256,32,16,8,Computer,2,12,0
+,3V3,VoltageVal3v3,16,Unsigned,,2,mV,Voltage of the 3V3 rail,208,26,13,6.5,Computer,2,9,0
+,5V,VoltageVal5v,16,Unsigned,,2,mV,Voltage of the 5V rail,224,28,14,7,Computer,2,10,0
+,1V2,VoltageVal1v2,16,Unsigned,,2,mV,Voltage of the 1V2 rail,240,30,15,7.5,Computer,2,11,0
+,Battery,VoltageValBattery,16,Unsigned,,2,mV,Voltage of the battery,256,32,16,8,Computer,2,12,0
 ,Filler,pad0,16,Unsigned,,0,-,Fill to 32 bits,208,26,13,6.5,NONE,0,0,0
 END,,,,,,,,Totals:,224,28,14,7,,,,
 ,,,,,,,,,,,,,,,,
